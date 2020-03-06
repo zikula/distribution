@@ -1,0 +1,11 @@
+/bin/
+/config/dynamic/*
+!/config/dynamic/default.yaml
+/public/*
+!/public/index.php
+/src/extensions/
+/var/
+/vendor/
+/.env.local
+/.env.local.php
+/.env.*.local

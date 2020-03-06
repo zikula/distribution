@@ -1,0 +1,76 @@
+{
+    "name": "zikula/distribution",
+    "description": "A basic distribution of Zikula with no third party modules",
+    "type": "project",
+    "homepage": "https://ziku.la/",
+    "license": "LGPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Zikula Team",
+            "homepage": "https://github.com/zikula/core/graphs/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zikula\\": ["src/extensions"]
+        },
+        "files": ["src/Kernel.php"]
+    },
+    "require": {
+        "php": "^7.2.5",
+        "zikula/core-bundle": "dev-master",
+
+        "zikula/legal-module": "dev-master",
+        "zikula/profile-module": "dev-master",
+        "zikula/oauth-module": "dev-master",
+        "zikula/pagelock-module": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Guite/symfony-console-form"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/FrDH/mmenu-js"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Guite/JMSI18nRoutingBundle/"
+        }
+    ],
+    "scripts": {
+        "zikula-scripts": [
+            "composer dump-autoload",
+            "bin/console cache:clear --env prod",
+            "bin/console cache:clear",
+            "bin/console assets:install --relative public",
+            "Zikula\\ExtensionsModule\\Composer\\ManuallyInstallAssets::install",
+            "Zikula\\ExtensionsModule\\Composer\\RequireJsConfigGenerator::regenerateRequireJs"
+        ],
+        "post-install-cmd": [
+            "@zikula-scripts"
+        ],
+        "post-update-cmd": [
+            "@zikula-scripts"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.2.5"
+        },
+        "sort-packages": true,
+        "bin-dir": "bin",
+        "component-dir": "public",
+        "public-dir": "public"
+    },
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-assets-install": "relative",
+        "installer-paths": {
+            "src/extensions/{$vendor}/{$name}": ["type:zikula-module", "type:zikula-theme"]
+        }
+    }
+}
