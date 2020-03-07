@@ -1,5 +1,6 @@
 /bin/
 /config/dynamic/*
+/config/services_custom.yaml
 !/config/dynamic/default.yaml
 /public/*
 !/public/index.php
