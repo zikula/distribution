@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe590f8abc0e8f9d271cf6aa1e1bdd13",
+    "content-hash": "ba151dca41fa537a361a5d2a75151296",
     "packages": [
         {
             "name": "antishov/doctrine-extensions-bundle",
@@ -6732,12 +6732,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/AdminModule.git",
-                "reference": "abaa6b04bdf21a0dcedd8ce738f6ac1b80e556e8"
+                "reference": "00e30a3c4b0915f504c5e4a2832572740ff52369"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/abaa6b04bdf21a0dcedd8ce738f6ac1b80e556e8",
-                "reference": "abaa6b04bdf21a0dcedd8ce738f6ac1b80e556e8",
+                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/00e30a3c4b0915f504c5e4a2832572740ff52369",
+                "reference": "00e30a3c4b0915f504c5e4a2832572740ff52369",
                 "shasum": ""
             },
             "require": {
@@ -6840,12 +6840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/BlocksModule.git",
-                "reference": "7466bbb89ab9616e151ce2a10c540b7d42daa406"
+                "reference": "795359208d5eeb806f785e966e2f158934ef86d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/7466bbb89ab9616e151ce2a10c540b7d42daa406",
-                "reference": "7466bbb89ab9616e151ce2a10c540b7d42daa406",
+                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/795359208d5eeb806f785e966e2f158934ef86d2",
+                "reference": "795359208d5eeb806f785e966e2f158934ef86d2",
                 "shasum": ""
             },
             "require": {
@@ -6957,12 +6957,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CategoriesModule.git",
-                "reference": "e41124f299f23b0cf001ed52d6f954e567dbda43"
+                "reference": "aa266ab4cde13ee27673d596aed37a187b93e474"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/e41124f299f23b0cf001ed52d6f954e567dbda43",
-                "reference": "e41124f299f23b0cf001ed52d6f954e567dbda43",
+                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/aa266ab4cde13ee27673d596aed37a187b93e474",
+                "reference": "aa266ab4cde13ee27673d596aed37a187b93e474",
                 "shasum": ""
             },
             "require": {
@@ -7142,12 +7142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ExtensionsModule.git",
-                "reference": "0eb7421eea4c68530c01472a8fc7ad6ebad96dc3"
+                "reference": "6122ad81d2d348cc037145f63b49416129088253"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/0eb7421eea4c68530c01472a8fc7ad6ebad96dc3",
-                "reference": "0eb7421eea4c68530c01472a8fc7ad6ebad96dc3",
+                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/6122ad81d2d348cc037145f63b49416129088253",
+                "reference": "6122ad81d2d348cc037145f63b49416129088253",
                 "shasum": ""
             },
             "require": {
@@ -7190,7 +7190,7 @@
                 }
             ],
             "description": "Extensions administration",
-            "time": "2020-03-06T01:34:56+00:00"
+            "time": "2020-03-07T11:15:28+00:00"
         },
         {
             "name": "zikula/formextension-bundle",
@@ -7296,12 +7296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/HookBundle.git",
-                "reference": "940a19b32a7ba5c2bcf49515417575df23128e9f"
+                "reference": "110d7f299fd4610e044f2ade2a49db425636f28a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/HookBundle/zipball/940a19b32a7ba5c2bcf49515417575df23128e9f",
-                "reference": "940a19b32a7ba5c2bcf49515417575df23128e9f",
+                "url": "https://api.github.com/repos/zikula/HookBundle/zipball/110d7f299fd4610e044f2ade2a49db425636f28a",
+                "reference": "110d7f299fd4610e044f2ade2a49db425636f28a",
                 "shasum": ""
             },
             "require": {
@@ -7907,12 +7907,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SearchModule.git",
-                "reference": "b93fdf753e269abb941143f4fa85a55c223f32de"
+                "reference": "42e86254b24ec1c5020ee0b0418c5b4f8eccbf06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SearchModule/zipball/b93fdf753e269abb941143f4fa85a55c223f32de",
-                "reference": "b93fdf753e269abb941143f4fa85a55c223f32de",
+                "url": "https://api.github.com/repos/zikula/SearchModule/zipball/42e86254b24ec1c5020ee0b0418c5b4f8eccbf06",
+                "reference": "42e86254b24ec1c5020ee0b0418c5b4f8eccbf06",
                 "shasum": ""
             },
             "require": {
@@ -8018,12 +8018,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SettingsModule.git",
-                "reference": "8c80f18f0fa7ba0f28081dce9471f86892a6241a"
+                "reference": "77bfd98e2797dc6d7d8778aed0018cbd6517bb60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/8c80f18f0fa7ba0f28081dce9471f86892a6241a",
-                "reference": "8c80f18f0fa7ba0f28081dce9471f86892a6241a",
+                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/77bfd98e2797dc6d7d8778aed0018cbd6517bb60",
+                "reference": "77bfd98e2797dc6d7d8778aed0018cbd6517bb60",
                 "shasum": ""
             },
             "require": {
@@ -8122,12 +8122,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ThemeModule.git",
-                "reference": "c43d39a8b71b1e2636144f9ceef0d8dbd4f3bed4"
+                "reference": "20388492d1620514974132c9272a579b23d6bada"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/c43d39a8b71b1e2636144f9ceef0d8dbd4f3bed4",
-                "reference": "c43d39a8b71b1e2636144f9ceef0d8dbd4f3bed4",
+                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/20388492d1620514974132c9272a579b23d6bada",
+                "reference": "20388492d1620514974132c9272a579b23d6bada",
                 "shasum": ""
             },
             "require": {
@@ -8196,12 +8196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/UsersModule.git",
-                "reference": "5ff439471206c75b7a46849eaa19166856df06e4"
+                "reference": "ab2fe1470cea03b8b7944837cd89d7af829fe180"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/5ff439471206c75b7a46849eaa19166856df06e4",
-                "reference": "5ff439471206c75b7a46849eaa19166856df06e4",
+                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/ab2fe1470cea03b8b7944837cd89d7af829fe180",
+                "reference": "ab2fe1470cea03b8b7944837cd89d7af829fe180",
                 "shasum": ""
             },
             "require": {
