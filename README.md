@@ -7,12 +7,13 @@ A basic distribution of Zikula with no third party modules
 Files that are copied from zikula/core repo (via github action)
  - config/*
    - not dynamic/generated.yaml
-   - not packages/dev or packages/test
-   - not routes/dev
+   - ? not packages/dev or packages/test
+   - ? not routes/dev
    - not services_custom.yaml
    - not routes_dev.yaml
  - src/Kernel.php
  - public/index.php
+ - public/.htaccess
  - .env
 
 should we copy?
