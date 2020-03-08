@@ -16,7 +16,6 @@ Files that are copied from zikula/core repo (via github action)
  - .env
 
 should we copy?
- - public/.htaccess (I think no)
  - public/favicon.ico
  - public/robots.txt (I think no)
  - public/uploads/.htaccess (I think no - directory gets auto-created)
