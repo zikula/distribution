@@ -407,16 +407,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.10.0-RC",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "ec39b4cbb5e012365d70cd95969ea11780d3c1fc"
+                "reference": "472c917b2a083ec7d2fa25c55fd099d1300e2515"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/ec39b4cbb5e012365d70cd95969ea11780d3c1fc",
-                "reference": "ec39b4cbb5e012365d70cd95969ea11780d3c1fc",
+                "url": "https://api.github.com/repos/composer/composer/zipball/472c917b2a083ec7d2fa25c55fd099d1300e2515",
+                "reference": "472c917b2a083ec7d2fa25c55fd099d1300e2515",
                 "shasum": ""
             },
             "require": {
@@ -483,7 +483,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-02-14T14:11:30+00:00"
+            "time": "2020-03-10T13:08:05+00:00"
         },
         {
             "name": "composer/installers",
@@ -7142,12 +7142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ExtensionsModule.git",
-                "reference": "8e2076d0e00deefc249136baf4d79c0cc7306a51"
+                "reference": "59e8c92cafc89d747beae6be9fe53b2d5092661e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/8e2076d0e00deefc249136baf4d79c0cc7306a51",
-                "reference": "8e2076d0e00deefc249136baf4d79c0cc7306a51",
+                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/59e8c92cafc89d747beae6be9fe53b2d5092661e",
+                "reference": "59e8c92cafc89d747beae6be9fe53b2d5092661e",
                 "shasum": ""
             },
             "require": {
@@ -7190,7 +7190,7 @@
                 }
             ],
             "description": "Extensions administration",
-            "time": "2020-03-08T18:46:42+00:00"
+            "time": "2020-03-08T19:44:52+00:00"
         },
         {
             "name": "zikula/formextension-bundle",
@@ -8196,12 +8196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/UsersModule.git",
-                "reference": "c7c1567b099b2d7e1c1530033bcde2807abcdda6"
+                "reference": "b9021067721467acc7bcd5d525fa82456e650773"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/c7c1567b099b2d7e1c1530033bcde2807abcdda6",
-                "reference": "c7c1567b099b2d7e1c1530033bcde2807abcdda6",
+                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/b9021067721467acc7bcd5d525fa82456e650773",
+                "reference": "b9021067721467acc7bcd5d525fa82456e650773",
                 "shasum": ""
             },
             "require": {
@@ -8249,7 +8249,7 @@
                 }
             ],
             "description": "User account administration",
-            "time": "2020-03-08T18:46:42+00:00"
+            "time": "2020-03-09T22:37:56+00:00"
         },
         {
             "name": "zikula/wizard",
