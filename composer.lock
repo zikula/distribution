@@ -6732,12 +6732,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/AdminModule.git",
-                "reference": "b9e6a167b3665d6fd13d73b770ae70092bf30682"
+                "reference": "66db049034384c943a759aafb763e533794027db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/b9e6a167b3665d6fd13d73b770ae70092bf30682",
-                "reference": "b9e6a167b3665d6fd13d73b770ae70092bf30682",
+                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/66db049034384c943a759aafb763e533794027db",
+                "reference": "66db049034384c943a759aafb763e533794027db",
                 "shasum": ""
             },
             "require": {
