@@ -1943,11 +1943,11 @@
         },
         {
             "name": "frdh/mmenu.js",
-            "version": "8.5.1",
+            "version": "8.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FrDH/mmenu-js",
-                "reference": "b26413ed4f34bfda7ce886ac555bfbadf50ee10c"
+                "reference": "3e7085462ba5b7e4d479df0871f23d60b7b9c06e"
             },
             "type": "library",
             "license": [
@@ -1977,7 +1977,7 @@
                 "panels",
                 "submenu"
             ],
-            "time": "2020-03-11T22:31:18+00:00"
+            "time": "2020-03-16T17:51:45+00:00"
         },
         {
             "name": "friendsofsymfony/jsrouting-bundle",
@@ -8342,12 +8342,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ZAuthModule.git",
-                "reference": "c85bd3267aa0d7881ceb75bc0bb22510e2485879"
+                "reference": "27426d454b4a4103d1f7e95254016414cba0feec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/c85bd3267aa0d7881ceb75bc0bb22510e2485879",
-                "reference": "c85bd3267aa0d7881ceb75bc0bb22510e2485879",
+                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/27426d454b4a4103d1f7e95254016414cba0feec",
+                "reference": "27426d454b4a4103d1f7e95254016414cba0feec",
                 "shasum": ""
             },
             "require": {
@@ -8388,7 +8388,7 @@
                 }
             ],
             "description": "Native zikula authentication",
-            "time": "2020-03-15T23:24:19+00:00"
+            "time": "2020-03-16T14:46:09+00:00"
         }
     ],
     "packages-dev": [],
