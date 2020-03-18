@@ -6732,12 +6732,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/AdminModule.git",
-                "reference": "66db049034384c943a759aafb763e533794027db"
+                "reference": "b9e6a167b3665d6fd13d73b770ae70092bf30682"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/66db049034384c943a759aafb763e533794027db",
-                "reference": "66db049034384c943a759aafb763e533794027db",
+                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/b9e6a167b3665d6fd13d73b770ae70092bf30682",
+                "reference": "b9e6a167b3665d6fd13d73b770ae70092bf30682",
                 "shasum": ""
             },
             "require": {
@@ -7011,12 +7011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreBundle.git",
-                "reference": "206750ce547cf867ef484909e260023e3d41d113"
+                "reference": "140b18baf19e08f02e92b5c41d761ce23a7e5f54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/206750ce547cf867ef484909e260023e3d41d113",
-                "reference": "206750ce547cf867ef484909e260023e3d41d113",
+                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/140b18baf19e08f02e92b5c41d761ce23a7e5f54",
+                "reference": "140b18baf19e08f02e92b5c41d761ce23a7e5f54",
                 "shasum": ""
             },
             "require": {
@@ -7089,7 +7089,7 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-03-08T19:44:52+00:00"
+            "time": "2020-03-17T16:42:14+00:00"
         },
         {
             "name": "zikula/coreinstaller-bundle",
@@ -8409,5 +8409,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.2.5"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }
