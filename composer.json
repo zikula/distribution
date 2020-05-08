@@ -29,10 +29,6 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/Guite/symfony-console-form"
-        },
-        {
             "type": "git",
             "url": "https://github.com/FrDH/mmenu-js"
         },
