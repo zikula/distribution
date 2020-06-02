@@ -6,8 +6,7 @@ A basic distribution of Zikula with no third party modules
 
 Files that are copied from zikula/core repo (via github action)
  - src/Kernel.php
- - public/index.php
- - public/.htaccess
+ - public/*
  - .env
  - config/*
    - dynamic/* except dynamic/generated.yaml
