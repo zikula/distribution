@@ -13,13 +13,14 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Zikula\\": ["src/extensions"]
-        },
         "files": ["src/Kernel.php"]
     },
     "require": {
         "php": "^7.2.5",
+        "ext-xml": "*",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
         "zikula/core-bundle": "dev-master",
 
         "zikula/legal-module": "3.*",
