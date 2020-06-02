@@ -4,7 +4,14 @@
 !/config/dynamic/default.yaml
 /public/*
 !/public/index.php
+!/public/uploads/
 !/public/.htaccess
+!/public/*.ico
+!/public/*.png
+!/public/*.svg
+!/public/browserconfig.xml
+!/public/robots
+!/public/site.webmanifest
 /src/extensions/
 /var/
 /vendor/
