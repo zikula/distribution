@@ -7773,12 +7773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/MailerModule.git",
-                "reference": "66a7caadf8cab322b1fe4a1012bcc7e1e77cb63c"
+                "reference": "c001ac16e429ba22b15c646054df62f5b2c6db35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/MailerModule/zipball/66a7caadf8cab322b1fe4a1012bcc7e1e77cb63c",
-                "reference": "66a7caadf8cab322b1fe4a1012bcc7e1e77cb63c",
+                "url": "https://api.github.com/repos/zikula/MailerModule/zipball/c001ac16e429ba22b15c646054df62f5b2c6db35",
+                "reference": "c001ac16e429ba22b15c646054df62f5b2c6db35",
                 "shasum": ""
             },
             "require": {
@@ -7827,12 +7827,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/MenuModule.git",
-                "reference": "20783c5dba9790fcc4dc96443b37194a99bd0ae8"
+                "reference": "79ef2040a80f1e97553ae0cc51cf4f4cb248d172"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/MenuModule/zipball/20783c5dba9790fcc4dc96443b37194a99bd0ae8",
-                "reference": "20783c5dba9790fcc4dc96443b37194a99bd0ae8",
+                "url": "https://api.github.com/repos/zikula/MenuModule/zipball/79ef2040a80f1e97553ae0cc51cf4f4cb248d172",
+                "reference": "79ef2040a80f1e97553ae0cc51cf4f4cb248d172",
                 "shasum": ""
             },
             "require": {
@@ -7989,12 +7989,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/PermissionsModule.git",
-                "reference": "9b3215dd62b4d44e0e5e06b593295972dc1b6bbf"
+                "reference": "a9fd7987cd71f9dc01a370c33bf11d320244f996"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/PermissionsModule/zipball/9b3215dd62b4d44e0e5e06b593295972dc1b6bbf",
-                "reference": "9b3215dd62b4d44e0e5e06b593295972dc1b6bbf",
+                "url": "https://api.github.com/repos/zikula/PermissionsModule/zipball/a9fd7987cd71f9dc01a370c33bf11d320244f996",
+                "reference": "a9fd7987cd71f9dc01a370c33bf11d320244f996",
                 "shasum": ""
             },
             "require": {
@@ -8562,12 +8562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/UsersModule.git",
-                "reference": "fc7503be3c9eb8308b908e49ad04c5f0f4a6e667"
+                "reference": "6c30d147c7924563abebddb729891b4956e45069"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/fc7503be3c9eb8308b908e49ad04c5f0f4a6e667",
-                "reference": "fc7503be3c9eb8308b908e49ad04c5f0f4a6e667",
+                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/6c30d147c7924563abebddb729891b4956e45069",
+                "reference": "6c30d147c7924563abebddb729891b4956e45069",
                 "shasum": ""
             },
             "require": {
@@ -8708,12 +8708,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ZAuthModule.git",
-                "reference": "29cf710c0a2a42e5ddece81c4f0b07551af2eef7"
+                "reference": "5bc0aa765de72d5259232f1e187539a2e17f2a85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/29cf710c0a2a42e5ddece81c4f0b07551af2eef7",
-                "reference": "29cf710c0a2a42e5ddece81c4f0b07551af2eef7",
+                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/5bc0aa765de72d5259232f1e187539a2e17f2a85",
+                "reference": "5bc0aa765de72d5259232f1e187539a2e17f2a85",
                 "shasum": ""
             },
             "require": {
