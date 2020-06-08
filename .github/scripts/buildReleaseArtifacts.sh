@@ -44,26 +44,26 @@ composer run-script post-install-cmd
 echo "Generating composer_vendors file..."
 ${PHP_BUILD} build:generate_vendor_doc --write-to "${PACKAGE_PATH}/docs/General/VendorInformation.md"
 
-echo "Copying docs and composer files..."
-mkdir -p "${DOC_PATH}/dev"
-for fileName in "${!COPY_FILES[@]}"; do
-    FILE_NAME="${fileName//_/.}"
-    FILE_FOLDER=${COPY_FILES[$fileName]}
-    #echo "File: ${FILE_NAME}"
-    #echo "Folder: ${FILE_FOLDER}"
-    if [ -e "${SOURCE_PATH}/${FILE_NAME}" ]; then
-        cp -f "${SOURCE_PATH}/${FILE_NAME}" "${FILE_FOLDER}/"
-    fi
-done
+#echo "Copying docs and composer files..."
+#mkdir -p "${DOC_PATH}/dev"
+#for fileName in "${!COPY_FILES[@]}"; do
+#    FILE_NAME="${fileName//_/.}"
+#    FILE_FOLDER=${COPY_FILES[$fileName]}
+#    #echo "File: ${FILE_NAME}"
+#    #echo "Folder: ${FILE_FOLDER}"
+#    if [ -e "${SOURCE_PATH}/${FILE_NAME}" ]; then
+#        cp -f "${SOURCE_PATH}/${FILE_NAME}" "${FILE_FOLDER}/"
+#    fi
+#done
 
 #echo "Purging tests from vendors..."
 #${PHP_BUILD} build:purge_vendors "${PACKAGE_PATH}/vendor"
 
-echo "Creating translation files..."
+#echo "Creating translation files..."
 #if [ "$BRANCH_NAME" = "2.0" ]; then # Zikula 2
 #    php -dmemory_limit=2G "${PACKAGE_PATH}/bin/console" translation:extract template --output-format=po --output-dir="${PACKAGE_PATH}/app/Resources/translations" --enable-extractor=jms_i18n_routing --dir="${PACKAGE_PATH}/system" --dir="${PACKAGE_PATH}/lib/Zikula/Bundle"
 #else # Zikula 3
-    php -dmemory_limit=2G "${PACKAGE_PATH}/bin/console" translation:extract zikula en
+#    php -dmemory_limit=2G "${PACKAGE_PATH}/bin/console" translation:extract zikula en
 #fi
 
 echo "Clearing cache directory..."

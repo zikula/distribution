@@ -14,6 +14,3 @@ Files that are copied from zikula/core repo (via github action)
    - routes/* routes/dev
    - workflows/*
    - not routes_dev.yaml
-
-should we copy?
- - translations/ (guessing this should be generated in a build process)
