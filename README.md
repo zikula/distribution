@@ -10,7 +10,6 @@ Files that are copied from zikula/core repo (via github action)
  - .env
  - config/*
    - dynamic/* except dynamic/generated.yaml
-   - packages/* except packages/dev or packages/test
-   - routes/* routes/dev
+   - packages/*
+   - routes/*
    - workflows/*
-   - not routes_dev.yaml
