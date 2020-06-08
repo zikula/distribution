@@ -7125,12 +7125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/AdminModule.git",
-                "reference": "d0231ab9c1db3a0fc3324a9ba75d871f74f3bbea"
+                "reference": "dedaecbb0d9d95c1477fe775eb92c64ac7ef5370"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/d0231ab9c1db3a0fc3324a9ba75d871f74f3bbea",
-                "reference": "d0231ab9c1db3a0fc3324a9ba75d871f74f3bbea",
+                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/dedaecbb0d9d95c1477fe775eb92c64ac7ef5370",
+                "reference": "dedaecbb0d9d95c1477fe775eb92c64ac7ef5370",
                 "shasum": ""
             },
             "require": {
@@ -7233,12 +7233,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/BlocksModule.git",
-                "reference": "354e72de311094aebb146bbacf83e94f7e703144"
+                "reference": "f07dc2e05f688e40428e4f4439ce249d020a5eb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/354e72de311094aebb146bbacf83e94f7e703144",
-                "reference": "354e72de311094aebb146bbacf83e94f7e703144",
+                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/f07dc2e05f688e40428e4f4439ce249d020a5eb1",
+                "reference": "f07dc2e05f688e40428e4f4439ce249d020a5eb1",
                 "shasum": ""
             },
             "require": {
@@ -7350,12 +7350,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CategoriesModule.git",
-                "reference": "8ed0d9fd5944782bdc18d711f22387e6affb3879"
+                "reference": "2fa3f43e54d12ba94bc3c90b5897a51834d66105"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/8ed0d9fd5944782bdc18d711f22387e6affb3879",
-                "reference": "8ed0d9fd5944782bdc18d711f22387e6affb3879",
+                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/2fa3f43e54d12ba94bc3c90b5897a51834d66105",
+                "reference": "2fa3f43e54d12ba94bc3c90b5897a51834d66105",
                 "shasum": ""
             },
             "require": {
@@ -8187,12 +8187,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/RoutesModule.git",
-                "reference": "f601207e7ce90c704670eea8c196504bb2217d95"
+                "reference": "d6418a8b1939b8ef9fda9fe45e25c7f5a72b5377"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/RoutesModule/zipball/f601207e7ce90c704670eea8c196504bb2217d95",
-                "reference": "f601207e7ce90c704670eea8c196504bb2217d95",
+                "url": "https://api.github.com/repos/zikula/RoutesModule/zipball/d6418a8b1939b8ef9fda9fe45e25c7f5a72b5377",
+                "reference": "d6418a8b1939b8ef9fda9fe45e25c7f5a72b5377",
                 "shasum": ""
             },
             "require": {
@@ -8241,7 +8241,7 @@
                 }
             ],
             "description": "Routes management",
-            "time": "2020-06-01T06:52:53+00:00"
+            "time": "2020-06-08T06:38:08+00:00"
         },
         {
             "name": "zikula/rss-theme",
@@ -8412,12 +8412,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SettingsModule.git",
-                "reference": "4b873ef6a5c0ae0ef99f88a50259e198b6fa0b82"
+                "reference": "a2c8763cc6a0c725d281dc99fb9dcdba148cf482"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/4b873ef6a5c0ae0ef99f88a50259e198b6fa0b82",
-                "reference": "4b873ef6a5c0ae0ef99f88a50259e198b6fa0b82",
+                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/a2c8763cc6a0c725d281dc99fb9dcdba148cf482",
+                "reference": "a2c8763cc6a0c725d281dc99fb9dcdba148cf482",
                 "shasum": ""
             },
             "require": {
@@ -8516,12 +8516,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ThemeModule.git",
-                "reference": "33d2b09827888e2c4934edcba5adbfc7f9f1a016"
+                "reference": "9f6e492a49e1e0b6234b387e9bf4fb0a3673164d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/33d2b09827888e2c4934edcba5adbfc7f9f1a016",
-                "reference": "33d2b09827888e2c4934edcba5adbfc7f9f1a016",
+                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/9f6e492a49e1e0b6234b387e9bf4fb0a3673164d",
+                "reference": "9f6e492a49e1e0b6234b387e9bf4fb0a3673164d",
                 "shasum": ""
             },
             "require": {
