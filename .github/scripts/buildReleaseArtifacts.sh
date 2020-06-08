@@ -103,7 +103,7 @@ echo "Creating archives..."
 #else
     ARCHIVE_BASE_PATH="${ARCHIVE_PATH}/zikula"
     cd "${EXPORT_PATH}"; zip -q -D -r "${ARCHIVE_BASE_PATH}.zip" .
-    cd "${EXPORT_PATH}"; tar cp "${BRANCH_NAME}" > "${ARCHIVE_BASE_PATH}.tar"; gzip "${ARCHIVE_BASE_PATH}.tar"
+    cd "${EXPORT_PATH}"; tar cp "zikula" > "${ARCHIVE_BASE_PATH}.tar"; gzip "${ARCHIVE_BASE_PATH}.tar"
 
     echo "Creating MD5 and SHA1 checksums..."
     CHECKSUM_PATH="${ARCHIVE_PATH}/${BRANCH_NAME}-checksums"
