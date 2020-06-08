@@ -5,7 +5,7 @@ BUILD_PATH="${GITHUB_WORKSPACE}/build_work"
 BRANCH_PREFIX="refs/heads/"
 BRANCH_NAME=${GITHUB_REF#"$BRANCH_PREFIX"}
 EXPORT_PATH="${BUILD_PATH}/export"
-PACKAGE_PATH="${EXPORT_PATH}/${BRANCH_NAME}"
+PACKAGE_PATH="${EXPORT_PATH}/zikula"
 ARCHIVE_PATH="${BUILD_PATH}/archive"
 PHP_BUILD="./build.php"
 
@@ -101,7 +101,7 @@ echo "Creating archives..."
 #if [ -e "${PACKAGE_PATH}/var/log" ]; then # Zikula 3+
 #    ${PHP_BUILD} build:package --name="${BRANCH_NAME}" --build-dir="${ARCHIVE_PATH}" --source-dir="${PACKAGE_PATH}"
 #else
-    ARCHIVE_BASE_PATH="${ARCHIVE_PATH}/${BRANCH_NAME}"
+    ARCHIVE_BASE_PATH="${ARCHIVE_PATH}/zikula"
     cd "${EXPORT_PATH}"; zip -q -D -r "${ARCHIVE_BASE_PATH}.zip" .
     cd "${EXPORT_PATH}"; tar cp "${BRANCH_NAME}" > "${ARCHIVE_BASE_PATH}.tar"; gzip "${ARCHIVE_BASE_PATH}.tar"
 
