@@ -13,3 +13,5 @@ Files that are copied from zikula/core repo (via github action)
    - packages/*
    - routes/*
    - workflows/*
+ - templates/*
+ - translations/*
