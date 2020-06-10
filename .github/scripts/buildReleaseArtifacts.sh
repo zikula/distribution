@@ -106,7 +106,7 @@ echo "Creating archives..."
     cd "${EXPORT_PATH}"; tar cp "zikula" > "${ARCHIVE_BASE_PATH}.tar"; gzip "${ARCHIVE_BASE_PATH}.tar"
 
     echo "Creating MD5 and SHA1 checksums..."
-    CHECKSUM_PATH="${ARCHIVE_PATH}/${BRANCH_NAME}-checksums"
+    CHECKSUM_PATH="${ARCHIVE_PATH}/zikula-checksums"
     TMP_FILE="${CHECKSUM_PATH}.tmp"
     echo "-----------------md5sums-----------------" > "${TMP_FILE}"
     md5sum "${ARCHIVE_PATH}/"*.tar.gz "${ARCHIVE_PATH}/"*.zip >> "${TMP_FILE}"
