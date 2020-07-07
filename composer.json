@@ -32,10 +32,6 @@
         {
             "type": "git",
             "url": "https://github.com/FrDH/mmenu-js"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/lightcoresystems/JMSI18nRoutingBundle/"
         }
     ],
     "scripts": {
