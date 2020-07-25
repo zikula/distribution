@@ -3471,16 +3471,16 @@
         },
         {
             "name": "league/oauth2-google",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-google.git",
-                "reference": "cfe9b0ae69eb5dbac64a282f04410b731f6b9c04"
+                "reference": "18d1889897a8b18d85ecadacf74c9274d678d943"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-google/zipball/cfe9b0ae69eb5dbac64a282f04410b731f6b9c04",
-                "reference": "cfe9b0ae69eb5dbac64a282f04410b731f6b9c04",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-google/zipball/18d1889897a8b18d85ecadacf74c9274d678d943",
+                "reference": "18d1889897a8b18d85ecadacf74c9274d678d943",
                 "shasum": ""
             },
             "require": {
@@ -3518,7 +3518,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2019-11-16T14:11:06+00:00"
+            "time": "2020-07-24T15:16:12+00:00"
         },
         {
             "name": "league/oauth2-instagram",
@@ -7803,12 +7803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreBundle.git",
-                "reference": "7397c3857834c5808ffce1b306d6250111b646ba"
+                "reference": "f2696472b5e47d31d27b8decd00354868847cef5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/7397c3857834c5808ffce1b306d6250111b646ba",
-                "reference": "7397c3857834c5808ffce1b306d6250111b646ba",
+                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/f2696472b5e47d31d27b8decd00354868847cef5",
+                "reference": "f2696472b5e47d31d27b8decd00354868847cef5",
                 "shasum": ""
             },
             "require": {
@@ -7981,12 +7981,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/FormExtensionBundle.git",
-                "reference": "4ffc0c71a6633b97042b2d295621ba669ebdff12"
+                "reference": "90da2bb0766ed2b16671a7b4ecabd02301dfa61e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/FormExtensionBundle/zipball/4ffc0c71a6633b97042b2d295621ba669ebdff12",
-                "reference": "4ffc0c71a6633b97042b2d295621ba669ebdff12",
+                "url": "https://api.github.com/repos/zikula/FormExtensionBundle/zipball/90da2bb0766ed2b16671a7b4ecabd02301dfa61e",
+                "reference": "90da2bb0766ed2b16671a7b4ecabd02301dfa61e",
                 "shasum": ""
             },
             "require": {
