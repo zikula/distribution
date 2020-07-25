@@ -3976,16 +3976,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.6.0",
+            "version": "v4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "c346bbfafe2ff60680258b631afb730d186ed864"
+                "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/c346bbfafe2ff60680258b631afb730d186ed864",
-                "reference": "c346bbfafe2ff60680258b631afb730d186ed864",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
+                "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
                 "shasum": ""
             },
             "require": {
@@ -4002,7 +4002,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.7-dev"
                 }
             },
             "autoload": {
@@ -4024,7 +4024,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-07-02T17:12:47+00:00"
+            "time": "2020-07-25T13:18:53+00:00"
         },
         {
             "name": "nyholm/nsa",
@@ -7512,16 +7512,16 @@
         },
         {
             "name": "zikula/admin-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/AdminModule.git",
-                "reference": "e0c7931f5da490f694b7d06fe055f8c3422f1fe4"
+                "reference": "8d7f18fcc3e978d54bba7c003488ede830a385e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/e0c7931f5da490f694b7d06fe055f8c3422f1fe4",
-                "reference": "e0c7931f5da490f694b7d06fe055f8c3422f1fe4",
+                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/8d7f18fcc3e978d54bba7c003488ede830a385e1",
+                "reference": "8d7f18fcc3e978d54bba7c003488ede830a385e1",
                 "shasum": ""
             },
             "require": {
@@ -7565,20 +7565,20 @@
                 }
             ],
             "description": "Backend administration interface",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/atom-theme",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/AtomTheme.git",
-                "reference": "b1a64818f295e958bbe3b40c0cf9cc731f805228"
+                "reference": "c01144021e14c1d8979f123d1d2165e3c1ac48bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/AtomTheme/zipball/b1a64818f295e958bbe3b40c0cf9cc731f805228",
-                "reference": "b1a64818f295e958bbe3b40c0cf9cc731f805228",
+                "url": "https://api.github.com/repos/zikula/AtomTheme/zipball/c01144021e14c1d8979f123d1d2165e3c1ac48bb",
+                "reference": "c01144021e14c1d8979f123d1d2165e3c1ac48bb",
                 "shasum": ""
             },
             "require": {
@@ -7619,20 +7619,20 @@
                 }
             ],
             "description": "The Atom theme is an auxiliary theme specially designed for rendering pages in Atom mark-up.",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/blocks-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/BlocksModule.git",
-                "reference": "9aea52c801adde6616bf8b45e1143d837e26362a"
+                "reference": "70d97782f5fdce7e1bce49741a8b74273c0211e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/9aea52c801adde6616bf8b45e1143d837e26362a",
-                "reference": "9aea52c801adde6616bf8b45e1143d837e26362a",
+                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/70d97782f5fdce7e1bce49741a8b74273c0211e0",
+                "reference": "70d97782f5fdce7e1bce49741a8b74273c0211e0",
                 "shasum": ""
             },
             "require": {
@@ -7685,20 +7685,20 @@
                 }
             ],
             "description": "Blocks administration",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/bootstrap-theme",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/BootstrapTheme.git",
-                "reference": "89c56ab0f4da0702cfcdf789c512511019b6ba29"
+                "reference": "51df88a9c8bcbd9174d25aabbe6a41c6e156824c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/BootstrapTheme/zipball/89c56ab0f4da0702cfcdf789c512511019b6ba29",
-                "reference": "89c56ab0f4da0702cfcdf789c512511019b6ba29",
+                "url": "https://api.github.com/repos/zikula/BootstrapTheme/zipball/51df88a9c8bcbd9174d25aabbe6a41c6e156824c",
+                "reference": "51df88a9c8bcbd9174d25aabbe6a41c6e156824c",
                 "shasum": ""
             },
             "require": {
@@ -7740,20 +7740,20 @@
                 }
             ],
             "description": "Bootstrap based theme",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/categories-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CategoriesModule.git",
-                "reference": "e6b7c8b9a887d6435917a7872336405e98a276bd"
+                "reference": "7df9eadd83dfaa688b908e2f918f2f65975f3b64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/e6b7c8b9a887d6435917a7872336405e98a276bd",
-                "reference": "e6b7c8b9a887d6435917a7872336405e98a276bd",
+                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/7df9eadd83dfaa688b908e2f918f2f65975f3b64",
+                "reference": "7df9eadd83dfaa688b908e2f918f2f65975f3b64",
                 "shasum": ""
             },
             "require": {
@@ -7795,20 +7795,20 @@
                 }
             ],
             "description": "Categories administration",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/core-bundle",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreBundle.git",
-                "reference": "f2696472b5e47d31d27b8decd00354868847cef5"
+                "reference": "08271a286318f9ed3a8dfe493c4021589f508b3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/f2696472b5e47d31d27b8decd00354868847cef5",
-                "reference": "f2696472b5e47d31d27b8decd00354868847cef5",
+                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/08271a286318f9ed3a8dfe493c4021589f508b3b",
+                "reference": "08271a286318f9ed3a8dfe493c4021589f508b3b",
                 "shasum": ""
             },
             "require": {
@@ -7870,11 +7870,11 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T13:01:27+00:00"
         },
         {
             "name": "zikula/coreinstaller-bundle",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreInstallerBundle.git",
@@ -7916,20 +7916,20 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-06-15T13:33:00+00:00"
+            "time": "2020-07-23T13:46:26+00:00"
         },
         {
             "name": "zikula/extensions-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ExtensionsModule.git",
-                "reference": "11f6a61dc4834e30cd74e1836b9cafde3ef06e56"
+                "reference": "33268b24984dc71005be88c09d1abcfc304c5039"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/11f6a61dc4834e30cd74e1836b9cafde3ef06e56",
-                "reference": "11f6a61dc4834e30cd74e1836b9cafde3ef06e56",
+                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/33268b24984dc71005be88c09d1abcfc304c5039",
+                "reference": "33268b24984dc71005be88c09d1abcfc304c5039",
                 "shasum": ""
             },
             "require": {
@@ -7973,11 +7973,11 @@
                 }
             ],
             "description": "Extensions administration",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/formextension-bundle",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/FormExtensionBundle.git",
@@ -8015,20 +8015,20 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-24T15:59:43+00:00"
         },
         {
             "name": "zikula/groups-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/GroupsModule.git",
-                "reference": "289970e56c23e8ccdd20cc9ccbe4a9b19e0cb640"
+                "reference": "d438bffbe2b20af725510c4862eb478273517a13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/GroupsModule/zipball/289970e56c23e8ccdd20cc9ccbe4a9b19e0cb640",
-                "reference": "289970e56c23e8ccdd20cc9ccbe4a9b19e0cb640",
+                "url": "https://api.github.com/repos/zikula/GroupsModule/zipball/d438bffbe2b20af725510c4862eb478273517a13",
+                "reference": "d438bffbe2b20af725510c4862eb478273517a13",
                 "shasum": ""
             },
             "require": {
@@ -8074,11 +8074,11 @@
                 }
             ],
             "description": "User group administration",
-            "time": "2020-06-15T17:29:03+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/hook-bundle",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/HookBundle.git",
@@ -8116,7 +8116,7 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-06-12T10:53:51+00:00"
+            "time": "2020-07-23T14:09:30+00:00"
         },
         {
             "name": "zikula/legal-module",
@@ -8186,16 +8186,16 @@
         },
         {
             "name": "zikula/mailer-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/MailerModule.git",
-                "reference": "9089e4147533e2b87cc90dc06f75221c2a8f3e05"
+                "reference": "f9ca01760012852b282d65ff56bc6c650a8b9306"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/MailerModule/zipball/9089e4147533e2b87cc90dc06f75221c2a8f3e05",
-                "reference": "9089e4147533e2b87cc90dc06f75221c2a8f3e05",
+                "url": "https://api.github.com/repos/zikula/MailerModule/zipball/f9ca01760012852b282d65ff56bc6c650a8b9306",
+                "reference": "f9ca01760012852b282d65ff56bc6c650a8b9306",
                 "shasum": ""
             },
             "require": {
@@ -8237,20 +8237,20 @@
                 }
             ],
             "description": "Mailer support",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/menu-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/MenuModule.git",
-                "reference": "be9b0d0ebad37be69fbb1a83228271838a27ccf0"
+                "reference": "0a955ceb255ca7d55d38a2bf573830c113c93f9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/MenuModule/zipball/be9b0d0ebad37be69fbb1a83228271838a27ccf0",
-                "reference": "be9b0d0ebad37be69fbb1a83228271838a27ccf0",
+                "url": "https://api.github.com/repos/zikula/MenuModule/zipball/0a955ceb255ca7d55d38a2bf573830c113c93f9b",
+                "reference": "0a955ceb255ca7d55d38a2bf573830c113c93f9b",
                 "shasum": ""
             },
             "require": {
@@ -8293,20 +8293,20 @@
                 }
             ],
             "description": "Menu management",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/oauth-module",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula-modules/OAuth.git",
-                "reference": "3c7ff12036651b41b1fb6a0bafcd517c707b92a7"
+                "reference": "83428af241daf695403f64058ab62d5006c3eff7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula-modules/OAuth/zipball/3c7ff12036651b41b1fb6a0bafcd517c707b92a7",
-                "reference": "3c7ff12036651b41b1fb6a0bafcd517c707b92a7",
+                "url": "https://api.github.com/repos/zikula-modules/OAuth/zipball/83428af241daf695403f64058ab62d5006c3eff7",
+                "reference": "83428af241daf695403f64058ab62d5006c3eff7",
                 "shasum": ""
             },
             "require": {
@@ -8351,7 +8351,7 @@
                 }
             ],
             "description": "Integrates league/oauth2-client and various providers.",
-            "time": "2020-06-12T12:20:38+00:00"
+            "time": "2020-07-25T07:16:40+00:00"
         },
         {
             "name": "zikula/pagelock-module",
@@ -8404,16 +8404,16 @@
         },
         {
             "name": "zikula/permissions-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/PermissionsModule.git",
-                "reference": "4f2cd8782d762657953c177e4c170e7563d70ad4"
+                "reference": "b61cca368c281bf4f198ba2597bf0157400785ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/PermissionsModule/zipball/4f2cd8782d762657953c177e4c170e7563d70ad4",
-                "reference": "4f2cd8782d762657953c177e4c170e7563d70ad4",
+                "url": "https://api.github.com/repos/zikula/PermissionsModule/zipball/b61cca368c281bf4f198ba2597bf0157400785ec",
+                "reference": "b61cca368c281bf4f198ba2597bf0157400785ec",
                 "shasum": ""
             },
             "require": {
@@ -8454,20 +8454,20 @@
                 }
             ],
             "description": "User permissions manager",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/printer-theme",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/PrinterTheme.git",
-                "reference": "cb410a9191d6a14ae663077c2bf2810c6343f2b3"
+                "reference": "49b9c831f9f879ad17c7d49bb259f1fd0604f215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/PrinterTheme/zipball/cb410a9191d6a14ae663077c2bf2810c6343f2b3",
-                "reference": "cb410a9191d6a14ae663077c2bf2810c6343f2b3",
+                "url": "https://api.github.com/repos/zikula/PrinterTheme/zipball/49b9c831f9f879ad17c7d49bb259f1fd0604f215",
+                "reference": "49b9c831f9f879ad17c7d49bb259f1fd0604f215",
                 "shasum": ""
             },
             "require": {
@@ -8508,7 +8508,7 @@
                 }
             ],
             "description": "The Printer theme is an auxiliary theme designed specially for outputting pages in a printer-friendly format.",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/profile-module",
@@ -8581,16 +8581,16 @@
         },
         {
             "name": "zikula/routes-module",
-            "version": "3.0.x-dev",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/RoutesModule.git",
-                "reference": "f2cd1dbded12d58abd400e147e3daa84e4455461"
+                "reference": "b324786c71cf6e8329990d234eebca18002bcab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/RoutesModule/zipball/f2cd1dbded12d58abd400e147e3daa84e4455461",
-                "reference": "f2cd1dbded12d58abd400e147e3daa84e4455461",
+                "url": "https://api.github.com/repos/zikula/RoutesModule/zipball/b324786c71cf6e8329990d234eebca18002bcab1",
+                "reference": "b324786c71cf6e8329990d234eebca18002bcab1",
                 "shasum": ""
             },
             "require": {
@@ -8640,20 +8640,20 @@
                 }
             ],
             "description": "Routes management",
-            "time": "2020-07-13T11:40:36+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/rss-theme",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/RssTheme.git",
-                "reference": "023ed4d9a75b46bcd196de1119d650f625f2d3f2"
+                "reference": "b3add649e1f36db2d5bd1bcd1c29671b1fcde5b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/RssTheme/zipball/023ed4d9a75b46bcd196de1119d650f625f2d3f2",
-                "reference": "023ed4d9a75b46bcd196de1119d650f625f2d3f2",
+                "url": "https://api.github.com/repos/zikula/RssTheme/zipball/b3add649e1f36db2d5bd1bcd1c29671b1fcde5b6",
+                "reference": "b3add649e1f36db2d5bd1bcd1c29671b1fcde5b6",
                 "shasum": ""
             },
             "require": {
@@ -8694,20 +8694,20 @@
                 }
             ],
             "description": "The RSS theme is an auxiliary theme designed specially for outputting pages as an RSS feed.",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/search-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SearchModule.git",
-                "reference": "e494982b6b0cd34f9076fe96cb507e8e5a12e9a5"
+                "reference": "35d8f2cbcd130b4a1f787ab210ffef0230d86cd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SearchModule/zipball/e494982b6b0cd34f9076fe96cb507e8e5a12e9a5",
-                "reference": "e494982b6b0cd34f9076fe96cb507e8e5a12e9a5",
+                "url": "https://api.github.com/repos/zikula/SearchModule/zipball/35d8f2cbcd130b4a1f787ab210ffef0230d86cd3",
+                "reference": "35d8f2cbcd130b4a1f787ab210ffef0230d86cd3",
                 "shasum": ""
             },
             "require": {
@@ -8752,20 +8752,20 @@
                 }
             ],
             "description": "Site search support",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/securitycenter-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SecurityCenterModule.git",
-                "reference": "d060db86e6b11a5f048d5af45fa3d97f2987dd6c"
+                "reference": "bd6558408f58ed8ba59d26be412efd4f6ed81ec7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SecurityCenterModule/zipball/d060db86e6b11a5f048d5af45fa3d97f2987dd6c",
-                "reference": "d060db86e6b11a5f048d5af45fa3d97f2987dd6c",
+                "url": "https://api.github.com/repos/zikula/SecurityCenterModule/zipball/bd6558408f58ed8ba59d26be412efd4f6ed81ec7",
+                "reference": "bd6558408f58ed8ba59d26be412efd4f6ed81ec7",
                 "shasum": ""
             },
             "require": {
@@ -8807,20 +8807,20 @@
                 }
             ],
             "description": "Security administration",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/settings-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SettingsModule.git",
-                "reference": "825b12460f4ebdea90b9a8fef274e109ed3421dc"
+                "reference": "994381d79b14a7483248c6dd648a3f24172bd17a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/825b12460f4ebdea90b9a8fef274e109ed3421dc",
-                "reference": "825b12460f4ebdea90b9a8fef274e109ed3421dc",
+                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/994381d79b14a7483248c6dd648a3f24172bd17a",
+                "reference": "994381d79b14a7483248c6dd648a3f24172bd17a",
                 "shasum": ""
             },
             "require": {
@@ -8867,7 +8867,7 @@
                 }
             ],
             "description": "System settings administration",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/sortable-columns",
@@ -8920,16 +8920,16 @@
         },
         {
             "name": "zikula/theme-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ThemeModule.git",
-                "reference": "416c75fa66d88bbd5c0ab996f8044cdbefc7afa1"
+                "reference": "7cc90ece4dae1d755f98c90063c924516dcdd6ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/416c75fa66d88bbd5c0ab996f8044cdbefc7afa1",
-                "reference": "416c75fa66d88bbd5c0ab996f8044cdbefc7afa1",
+                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/7cc90ece4dae1d755f98c90063c924516dcdd6ca",
+                "reference": "7cc90ece4dae1d755f98c90063c924516dcdd6ca",
                 "shasum": ""
             },
             "require": {
@@ -8992,20 +8992,20 @@
                 }
             ],
             "description": "Theme system and administration",
-            "time": "2020-06-12T10:53:51+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/users-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/UsersModule.git",
-                "reference": "af3bd4ab537cbcf2d88c5364dddd0a88d1cd2980"
+                "reference": "561b915d2e8fcfd20caeacc1045f742609ec46ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/af3bd4ab537cbcf2d88c5364dddd0a88d1cd2980",
-                "reference": "af3bd4ab537cbcf2d88c5364dddd0a88d1cd2980",
+                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/561b915d2e8fcfd20caeacc1045f742609ec46ec",
+                "reference": "561b915d2e8fcfd20caeacc1045f742609ec46ec",
                 "shasum": ""
             },
             "require": {
@@ -9056,7 +9056,7 @@
                 }
             ],
             "description": "User account administration",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         },
         {
             "name": "zikula/wizard",
@@ -9105,7 +9105,7 @@
         },
         {
             "name": "zikula/workflow-bundle",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/WorkflowBundle.git",
@@ -9143,20 +9143,20 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-06-16T17:44:57+00:00"
+            "time": "2020-07-11T21:34:38+00:00"
         },
         {
             "name": "zikula/zauth-module",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ZAuthModule.git",
-                "reference": "fff0c5486a3505a58723b5e059fff4cc57ac8ff3"
+                "reference": "1e171b53e79d1abe46b737a2008cb9727b49f009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/fff0c5486a3505a58723b5e059fff4cc57ac8ff3",
-                "reference": "fff0c5486a3505a58723b5e059fff4cc57ac8ff3",
+                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/1e171b53e79d1abe46b737a2008cb9727b49f009",
+                "reference": "1e171b53e79d1abe46b737a2008cb9727b49f009",
                 "shasum": ""
             },
             "require": {
@@ -9199,7 +9199,7 @@
                 }
             ],
             "description": "Native zikula authentication",
-            "time": "2020-06-10T11:26:17+00:00"
+            "time": "2020-07-25T12:13:30+00:00"
         }
     ],
     "packages-dev": [],

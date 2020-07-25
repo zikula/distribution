@@ -1,7 +1,5 @@
 name: Build archives
-on:
-  push:
-    branches: [master]
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
