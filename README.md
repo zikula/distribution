@@ -9,7 +9,6 @@ Files that are copied from zikula/core repo (via github action)
  - public/*
  - .env
  - config/*
-   - dynamic/* except dynamic/generated.yaml
    - packages/*
    - routes/*
    - workflows/*
