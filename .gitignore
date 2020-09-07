@@ -13,6 +13,7 @@
 !/public/robots
 !/public/site.webmanifest
 /src/extensions/
+/src/preload.php
 /var/
 /vendor/
 /.env.local
