@@ -126,16 +126,16 @@
         },
         {
             "name": "components/bootstrap",
-            "version": "4.5.0",
+            "version": "4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/bootstrap.git",
-                "reference": "a64e49cf3e338e4b90d9fd1963104a1440232c21"
+                "reference": "2cec2d3be861a1e644623ee0dd52b4ad4930fc18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/bootstrap/zipball/a64e49cf3e338e4b90d9fd1963104a1440232c21",
-                "reference": "a64e49cf3e338e4b90d9fd1963104a1440232c21",
+                "url": "https://api.github.com/repos/components/bootstrap/zipball/2cec2d3be861a1e644623ee0dd52b4ad4930fc18",
+                "reference": "2cec2d3be861a1e644623ee0dd52b4ad4930fc18",
                 "shasum": ""
             },
             "require": {
@@ -185,7 +185,7 @@
                 "sass",
                 "web"
             ],
-            "time": "2020-05-12T18:49:58+00:00"
+            "time": "2020-08-06T20:15:43+00:00"
         },
         {
             "name": "components/font-awesome",
@@ -351,16 +351,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.7",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd"
+                "reference": "8a7ecad675253e4654ea05505233285377405215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/95c63ab2117a72f48f5a55da9740a3273d45b7fd",
-                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/8a7ecad675253e4654ea05505233285377405215",
+                "reference": "8a7ecad675253e4654ea05505233285377405215",
                 "shasum": ""
             },
             "require": {
@@ -409,24 +409,28 @@
                     "type": "custom"
                 },
                 {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/composer/composer",
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-08T08:27:21+00:00"
+            "time": "2020-08-23T12:54:47+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "1.10.9",
+            "version": "1.10.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "83c3250093d5491600a822e176b107a945baf95a"
+                "reference": "32966a3b1d48bc01472a8321fd6472b44fad033a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/83c3250093d5491600a822e176b107a945baf95a",
-                "reference": "83c3250093d5491600a822e176b107a945baf95a",
+                "url": "https://api.github.com/repos/composer/composer/zipball/32966a3b1d48bc01472a8321fd6472b44fad033a",
+                "reference": "32966a3b1d48bc01472a8321fd6472b44fad033a",
                 "shasum": ""
             },
             "require": {
@@ -507,7 +511,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-16T10:57:00+00:00"
+            "time": "2020-08-03T09:35:19+00:00"
         },
         {
             "name": "composer/installers",
@@ -783,16 +787,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51"
+                "reference": "ebd27a9866ae8254e873866f795491f02418c5a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51",
-                "reference": "fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/ebd27a9866ae8254e873866f795491f02418c5a5",
+                "reference": "ebd27a9866ae8254e873866f795491f02418c5a5",
                 "shasum": ""
             },
             "require": {
@@ -837,7 +841,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-04T11:16:35+00:00"
+            "time": "2020-08-19T10:27:58+00:00"
         },
         {
             "name": "dimsemenov/magnific-popup",
@@ -861,16 +865,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "1.10.3",
+            "version": "1.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "5db60a4969eba0e0c197a19c077780aadbc43c5d"
+                "reference": "bfe91e31984e2ba76df1c1339681770401ec262f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/5db60a4969eba0e0c197a19c077780aadbc43c5d",
-                "reference": "5db60a4969eba0e0c197a19c077780aadbc43c5d",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/bfe91e31984e2ba76df1c1339681770401ec262f",
+                "reference": "bfe91e31984e2ba76df1c1339681770401ec262f",
                 "shasum": ""
             },
             "require": {
@@ -880,7 +884,8 @@
             },
             "require-dev": {
                 "doctrine/cache": "1.*",
-                "phpunit/phpunit": "^7.5"
+                "phpstan/phpstan": "^0.12.20",
+                "phpunit/phpunit": "^7.5 || ^9.1.5"
             },
             "type": "library",
             "extra": {
@@ -926,7 +931,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2020-05-25T17:24:27+00:00"
+            "time": "2020-08-10T19:35:50+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -1026,16 +1031,16 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "1.6.6",
+            "version": "1.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "5f0470363ff042d0057006ae7acabc5d7b5252d5"
+                "reference": "55f8b799269a1a472457bd1a41b4f379d4cfba4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/5f0470363ff042d0057006ae7acabc5d7b5252d5",
-                "reference": "5f0470363ff042d0057006ae7acabc5d7b5252d5",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/55f8b799269a1a472457bd1a41b4f379d4cfba4a",
+                "reference": "55f8b799269a1a472457bd1a41b4f379d4cfba4a",
                 "shasum": ""
             },
             "require": {
@@ -1087,21 +1092,7 @@
                 "iterators",
                 "php"
             ],
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fcollections",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2020-06-22T19:14:02+00:00"
+            "time": "2020-07-27T17:53:49+00:00"
         },
         {
             "name": "doctrine/common",
@@ -1202,16 +1193,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "2.10.2",
+            "version": "2.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "aab745e7b6b2de3b47019da81e7225e14dcfdac8"
+                "reference": "03ca23afc2ee062f5d3e32426ad37c34a4770dcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/aab745e7b6b2de3b47019da81e7225e14dcfdac8",
-                "reference": "aab745e7b6b2de3b47019da81e7225e14dcfdac8",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/03ca23afc2ee062f5d3e32426ad37c34a4770dcf",
+                "reference": "03ca23afc2ee062f5d3e32426ad37c34a4770dcf",
                 "shasum": ""
             },
             "require": {
@@ -1221,13 +1212,14 @@
                 "php": "^7.2"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^6.0",
+                "doctrine/coding-standard": "^8.1",
                 "jetbrains/phpstorm-stubs": "^2019.1",
                 "nikic/php-parser": "^4.4",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^8.4.1",
+                "phpstan/phpstan": "^0.12.40",
+                "phpunit/phpunit": "^8.5.5",
+                "psalm/plugin-phpunit": "^0.10.0",
                 "symfony/console": "^2.0.5|^3.0|^4.0|^5.0",
-                "vimeo/psalm": "^3.11"
+                "vimeo/psalm": "^3.14.2"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -1306,25 +1298,25 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-20T17:19:26+00:00"
+            "time": "2020-09-02T01:35:42+00:00"
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "2.1.0",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "0fb513842c78b43770597ef3c487cdf79d944db3"
+                "reference": "f5153089993e1230f5d8acbd8e126014d5a63e17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/0fb513842c78b43770597ef3c487cdf79d944db3",
-                "reference": "0fb513842c78b43770597ef3c487cdf79d944db3",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/f5153089993e1230f5d8acbd8e126014d5a63e17",
+                "reference": "f5153089993e1230f5d8acbd8e126014d5a63e17",
                 "shasum": ""
             },
             "require": {
-                "doctrine/dbal": "^2.9.0",
-                "doctrine/persistence": "^1.3.3",
+                "doctrine/dbal": "^2.9.0|^3.0",
+                "doctrine/persistence": "^1.3.3|^2.0",
                 "doctrine/sql-formatter": "^1.0.1",
                 "php": "^7.1 || ^8.0",
                 "symfony/cache": "^4.3.3|^5.0",
@@ -1412,24 +1404,24 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-25T19:56:00+00:00"
+            "time": "2020-08-25T10:57:15+00:00"
         },
         {
             "name": "doctrine/event-manager",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/event-manager.git",
-                "reference": "629572819973f13486371cb611386eb17851e85c"
+                "reference": "41370af6a30faa9dc0368c4a6814d596e81aba7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/629572819973f13486371cb611386eb17851e85c",
-                "reference": "629572819973f13486371cb611386eb17851e85c",
+                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/41370af6a30faa9dc0368c4a6814d596e81aba7f",
+                "reference": "41370af6a30faa9dc0368c4a6814d596e81aba7f",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": "^7.1 || ^8.0"
             },
             "conflict": {
                 "doctrine/common": "<2.9@dev"
@@ -1488,7 +1480,21 @@
                 "event system",
                 "events"
             ],
-            "time": "2019-11-10T09:48:07+00:00"
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fevent-manager",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-29T18:28:51+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1832,16 +1838,16 @@
         },
         {
             "name": "doctrine/persistence",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/persistence.git",
-                "reference": "0af483f91bada1c9ded6c2cfd26ab7d5ab2094e0"
+                "reference": "7a6eac9fb6f61bba91328f15aa7547f4806ca288"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/persistence/zipball/0af483f91bada1c9ded6c2cfd26ab7d5ab2094e0",
-                "reference": "0af483f91bada1c9ded6c2cfd26ab7d5ab2094e0",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/7a6eac9fb6f61bba91328f15aa7547f4806ca288",
+                "reference": "7a6eac9fb6f61bba91328f15aa7547f4806ca288",
                 "shasum": ""
             },
             "require": {
@@ -1850,7 +1856,7 @@
                 "doctrine/collections": "^1.0",
                 "doctrine/event-manager": "^1.0",
                 "doctrine/reflection": "^1.2",
-                "php": "^7.1"
+                "php": "^7.1 || ^8.0"
             },
             "conflict": {
                 "doctrine/common": "<2.10@dev"
@@ -1858,7 +1864,8 @@
             "require-dev": {
                 "doctrine/coding-standard": "^6.0",
                 "phpstan/phpstan": "^0.11",
-                "phpunit/phpunit": "^7.0"
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+                "vimeo/psalm": "^3.11"
             },
             "type": "library",
             "extra": {
@@ -1925,7 +1932,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-21T15:13:52+00:00"
+            "time": "2020-06-20T12:56:16+00:00"
         },
         {
             "name": "doctrine/reflection",
@@ -2007,16 +2014,16 @@
         },
         {
             "name": "doctrine/sql-formatter",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/sql-formatter.git",
-                "reference": "5458bdcf176f6a53292e3f0cc73f292d6302fb0f"
+                "reference": "56070bebac6e77230ed7d306ad13528e60732871"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/sql-formatter/zipball/5458bdcf176f6a53292e3f0cc73f292d6302fb0f",
-                "reference": "5458bdcf176f6a53292e3f0cc73f292d6302fb0f",
+                "url": "https://api.github.com/repos/doctrine/sql-formatter/zipball/56070bebac6e77230ed7d306ad13528e60732871",
+                "reference": "56070bebac6e77230ed7d306ad13528e60732871",
                 "shasum": ""
             },
             "require": {
@@ -2056,20 +2063,20 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2020-05-29T18:32:49+00:00"
+            "time": "2020-07-30T16:57:33+00:00"
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.18",
+            "version": "2.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "cfa3d44471c7f5bfb684ac2b0da7114283d78441"
+                "reference": "f46887bc48db66c7f38f668eb7d6ae54583617ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/cfa3d44471c7f5bfb684ac2b0da7114283d78441",
-                "reference": "cfa3d44471c7f5bfb684ac2b0da7114283d78441",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/f46887bc48db66c7f38f668eb7d6ae54583617ff",
+                "reference": "f46887bc48db66c7f38f668eb7d6ae54583617ff",
                 "shasum": ""
             },
             "require": {
@@ -2114,7 +2121,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2020-06-16T20:11:17+00:00"
+            "time": "2020-09-06T13:44:32+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -2314,16 +2321,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.41",
+            "version": "v2.4.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "e55a6727052f91834a968937c93b6fb193be8fb6"
+                "reference": "b6c4442b4f32ce05673fbdf1fa4a2d5e315cc0a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/e55a6727052f91834a968937c93b6fb193be8fb6",
-                "reference": "e55a6727052f91834a968937c93b6fb193be8fb6",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/b6c4442b4f32ce05673fbdf1fa4a2d5e315cc0a4",
+                "reference": "b6c4442b4f32ce05673fbdf1fa4a2d5e315cc0a4",
                 "shasum": ""
             },
             "require": {
@@ -2392,7 +2399,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2020-05-10T22:20:03+00:00"
+            "time": "2020-08-21T01:27:20+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2950,20 +2957,20 @@
         },
         {
             "name": "knplabs/knp-menu",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "254fb64d545f087451cc197a7fa5d47e03ffb038"
+                "reference": "9996764bc4bdc4381ecdc4617817de23948f0cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/254fb64d545f087451cc197a7fa5d47e03ffb038",
-                "reference": "254fb64d545f087451cc197a7fa5d47e03ffb038",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/9996764bc4bdc4381ecdc4617817de23948f0cdb",
+                "reference": "9996764bc4bdc4381ecdc4617817de23948f0cdb",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2"
+                "php": "^7.2 || ^8.0"
             },
             "conflict": {
                 "twig/twig": "<1.40 || >=2,<2.9"
@@ -3014,7 +3021,7 @@
                 "menu",
                 "tree"
             ],
-            "time": "2020-04-22T14:37:23+00:00"
+            "time": "2020-08-15T08:01:46+00:00"
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -3121,16 +3128,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.5.3",
+            "version": "1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "2574454b97e4103dc4e36917bd783b25624aefcd"
+                "reference": "21819c989e69bab07e933866ad30c7e3f32984ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/2574454b97e4103dc4e36917bd783b25624aefcd",
-                "reference": "2574454b97e4103dc4e36917bd783b25624aefcd",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/21819c989e69bab07e933866ad30c7e3f32984ba",
+                "reference": "21819c989e69bab07e933866ad30c7e3f32984ba",
                 "shasum": ""
             },
             "require": {
@@ -3212,7 +3219,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-19T22:47:30+00:00"
+            "time": "2020-08-18T01:19:12+00:00"
         },
         {
             "name": "league/html-to-markdown",
@@ -3977,16 +3984,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.7.0",
+            "version": "v4.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300"
+                "reference": "88e519766fc58bd46b8265561fb79b54e2e00b28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
-                "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/88e519766fc58bd46b8265561fb79b54e2e00b28",
+                "reference": "88e519766fc58bd46b8265561fb79b54e2e00b28",
                 "shasum": ""
             },
             "require": {
@@ -3994,8 +4001,8 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "ircmaxell/php-yacc": "0.0.5",
-                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
+                "ircmaxell/php-yacc": "^0.0.7",
+                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
             },
             "bin": [
                 "bin/php-parse"
@@ -4003,7 +4010,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.7-dev"
+                    "dev-master": "4.9-dev"
                 }
             },
             "autoload": {
@@ -4025,7 +4032,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-07-25T13:18:53+00:00"
+            "time": "2020-08-30T16:15:20+00:00"
         },
         {
             "name": "nyholm/nsa",
@@ -4915,16 +4922,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.8.0",
+            "version": "1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1"
+                "reference": "590cfec960b77fd55e39b7d9246659e95dd6d337"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
-                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/590cfec960b77fd55e39b7d9246659e95dd6d337",
+                "reference": "590cfec960b77fd55e39b7d9246659e95dd6d337",
                 "shasum": ""
             },
             "require": {
@@ -4970,7 +4977,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-30T19:05:18+00:00"
+            "time": "2020-08-25T06:56:57+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -5018,40 +5025,43 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v5.5.6",
+            "version": "v5.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "b49f079d8a87a6e6dd434062085ff5a132af466b"
+                "reference": "430d14c01836b77c28092883d195a43ce413ee32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/b49f079d8a87a6e6dd434062085ff5a132af466b",
-                "reference": "b49f079d8a87a6e6dd434062085ff5a132af466b",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/430d14c01836b77c28092883d195a43ce413ee32",
+                "reference": "430d14c01836b77c28092883d195a43ce413ee32",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "^1.0",
-                "php": ">=7.1.3",
+                "php": ">=7.2.5",
                 "symfony/config": "^4.4|^5.0",
                 "symfony/dependency-injection": "^4.4|^5.0",
                 "symfony/framework-bundle": "^4.4|^5.0",
                 "symfony/http-kernel": "^4.4|^5.0"
             },
             "conflict": {
-                "doctrine/doctrine-cache-bundle": "<1.3.1"
+                "doctrine/doctrine-cache-bundle": "<1.3.1",
+                "doctrine/persistence": "<1.3"
             },
             "require-dev": {
+                "doctrine/dbal": "^2.10|^3.0",
                 "doctrine/doctrine-bundle": "^1.11|^2.0",
                 "doctrine/orm": "^2.5",
                 "nyholm/psr7": "^1.1",
                 "symfony/browser-kit": "^4.4|^5.0",
+                "symfony/doctrine-bridge": "^4.4|^5.0",
                 "symfony/dom-crawler": "^4.4|^5.0",
                 "symfony/expression-language": "^4.4|^5.0",
                 "symfony/finder": "^4.4|^5.0",
                 "symfony/monolog-bridge": "^4.0|^5.0",
                 "symfony/monolog-bundle": "^3.2",
-                "symfony/phpunit-bridge": "^4.3.5|^5.0",
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9",
                 "symfony/psr-http-message-bridge": "^1.1",
                 "symfony/security-bundle": "^4.4|^5.0",
                 "symfony/twig-bundle": "^4.4|^5.0",
@@ -5061,7 +5071,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.5.x-dev"
+                    "dev-master": "5.6.x-dev"
                 }
             },
             "autoload": {
@@ -5087,7 +5097,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2020-06-15T20:28:02+00:00"
+            "time": "2020-08-25T19:10:18+00:00"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -5139,16 +5149,16 @@
         },
         {
             "name": "symfony/contracts",
-            "version": "v2.1.2",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "69e01844e38445cb15631cfe49949ecc08605576"
+                "reference": "64342f7faf49d26a959ea223f83170f00d9699c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/69e01844e38445cb15631cfe49949ecc08605576",
-                "reference": "69e01844e38445cb15631cfe49949ecc08605576",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/64342f7faf49d26a959ea223f83170f00d9699c7",
+                "reference": "64342f7faf49d26a959ea223f83170f00d9699c7",
                 "shasum": ""
             },
             "require": {
@@ -5230,20 +5240,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-27T08:34:37+00:00"
+            "time": "2020-07-29T14:54:40+00:00"
         },
         {
             "name": "symfony/maker-bundle",
-            "version": "v1.20.0",
+            "version": "v1.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "b048c7b2be5bce9024ae3b0db97d44a107029c27"
+                "reference": "da629093c7bf9abd9a6a0f232a43bbb1b88de68d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/b048c7b2be5bce9024ae3b0db97d44a107029c27",
-                "reference": "b048c7b2be5bce9024ae3b0db97d44a107029c27",
+                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/da629093c7bf9abd9a6a0f232a43bbb1b88de68d",
+                "reference": "da629093c7bf9abd9a6a0f232a43bbb1b88de68d",
                 "shasum": ""
             },
             "require": {
@@ -5313,7 +5323,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-14T11:22:04+00:00"
+            "time": "2020-08-29T18:05:46+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -5380,7 +5390,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -5456,7 +5466,7 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
@@ -5534,7 +5544,7 @@
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
@@ -5610,16 +5620,16 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe"
+                "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
-                "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/5dcab1bc7146cf8c1beaa4502a3d9be344334251",
+                "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251",
                 "shasum": ""
             },
             "require": {
@@ -5691,11 +5701,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-14T12:35:20+00:00"
+            "time": "2020-08-04T06:02:08+00:00"
         },
         {
             "name": "symfony/polyfill-intl-messageformatter",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-messageformatter.git",
@@ -5776,7 +5786,7 @@
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -5857,7 +5867,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -5934,7 +5944,7 @@
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
@@ -6011,7 +6021,7 @@
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
@@ -6084,7 +6094,7 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
@@ -6160,7 +6170,7 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -6240,7 +6250,7 @@
         },
         {
             "name": "symfony/polyfill-uuid",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-uuid.git",
@@ -6317,20 +6327,19 @@
         },
         {
             "name": "symfony/profiler-pack",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/profiler-pack.git",
-                "reference": "99c4370632c2a59bb0444852f92140074ef02209"
+                "reference": "29ec66471082b4eb068db11eb4f0a48c277653f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/profiler-pack/zipball/99c4370632c2a59bb0444852f92140074ef02209",
-                "reference": "99c4370632c2a59bb0444852f92140074ef02209",
+                "url": "https://api.github.com/repos/symfony/profiler-pack/zipball/29ec66471082b4eb068db11eb4f0a48c277653f7",
+                "reference": "29ec66471082b4eb068db11eb4f0a48c277653f7",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0",
                 "symfony/stopwatch": "*",
                 "symfony/twig-bundle": "*",
                 "symfony/web-profiler-bundle": "*"
@@ -6341,7 +6350,21 @@
                 "MIT"
             ],
             "description": "A pack for the Symfony web profiler",
-            "time": "2018-12-10T12:11:44+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-12T06:50:46+00:00"
         },
         {
             "name": "symfony/requirements-checker",
@@ -6393,16 +6416,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v5.1.3",
+            "version": "v5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "753a0728e99f541bf51d873e91464fd657819f78"
+                "reference": "31b6a95fc288617ccfa27aa819d30c0c2201416a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/753a0728e99f541bf51d873e91464fd657819f78",
-                "reference": "753a0728e99f541bf51d873e91464fd657819f78",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/31b6a95fc288617ccfa27aa819d30c0c2201416a",
+                "reference": "31b6a95fc288617ccfa27aa819d30c0c2201416a",
                 "shasum": ""
             },
             "require": {
@@ -6509,7 +6532,7 @@
                 "doctrine/cache": "~1.6",
                 "doctrine/collections": "~1.0",
                 "doctrine/data-fixtures": "^1.1",
-                "doctrine/dbal": "~2.4",
+                "doctrine/dbal": "~2.4|^3.0",
                 "doctrine/doctrine-bundle": "^2.0",
                 "doctrine/orm": "~2.4,>=2.4.5",
                 "doctrine/reflection": "~1.0",
@@ -6525,7 +6548,7 @@
                 "predis/predis": "~1.1",
                 "psr/http-client": "^1.0",
                 "psr/simple-cache": "^1.0",
-                "symfony/phpunit-bridge": "^5.0.8",
+                "symfony/phpunit-bridge": "^5.2",
                 "symfony/security-acl": "~2.8|~3.0",
                 "twig/cssinliner-extra": "^2.12",
                 "twig/inky-extra": "^2.12",
@@ -6586,20 +6609,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-24T04:23:17+00:00"
+            "time": "2020-09-02T08:15:35+00:00"
         },
         {
             "name": "thomaspark/bootswatch",
-            "version": "v4.5.0",
+            "version": "v4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thomaspark/bootswatch.git",
-                "reference": "2a3e1c5ff57f200164d123ae0bfeeb32b0045a20"
+                "reference": "99712ea1efd9fd42fd008ecd36023db5f15c92e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/2a3e1c5ff57f200164d123ae0bfeeb32b0045a20",
-                "reference": "2a3e1c5ff57f200164d123ae0bfeeb32b0045a20",
+                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/99712ea1efd9fd42fd008ecd36023db5f15c92e1",
+                "reference": "99712ea1efd9fd42fd008ecd36023db5f15c92e1",
                 "shasum": ""
             },
             "suggest": {
@@ -6627,7 +6650,7 @@
                 }
             ],
             "description": "Themes for Bootstrap",
-            "time": "2020-05-14T01:11:40+00:00"
+            "time": "2020-08-10T18:06:32+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -6680,7 +6703,7 @@
         },
         {
             "name": "twig/cssinliner-extra",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/cssinliner-extra.git",
@@ -6756,7 +6779,7 @@
         },
         {
             "name": "twig/extra-bundle",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/twig-extra-bundle.git",
@@ -6837,7 +6860,7 @@
         },
         {
             "name": "twig/html-extra",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/html-extra.git",
@@ -6912,7 +6935,7 @@
         },
         {
             "name": "twig/inky-extra",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/inky-extra.git",
@@ -6989,7 +7012,7 @@
         },
         {
             "name": "twig/intl-extra",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/intl-extra.git",
@@ -7040,18 +7063,6 @@
             ],
             "funding": [
                 {
-                    "url": "https://certification.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://live.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://symfony.com/cloud/",
-                    "type": "custom"
-                },
-                {
                     "url": "https://github.com/fabpot",
                     "type": "github"
                 },
@@ -7064,16 +7075,16 @@
         },
         {
             "name": "twig/markdown-extra",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/markdown-extra.git",
-                "reference": "32db423d2d359bd46591a3a8ac0cdc5935a394fc"
+                "reference": "1fe798d559665b64bda4b08eda10793427d7e3bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/markdown-extra/zipball/32db423d2d359bd46591a3a8ac0cdc5935a394fc",
-                "reference": "32db423d2d359bd46591a3a8ac0cdc5935a394fc",
+                "url": "https://api.github.com/repos/twigphp/markdown-extra/zipball/1fe798d559665b64bda4b08eda10793427d7e3bc",
+                "reference": "1fe798d559665b64bda4b08eda10793427d7e3bc",
                 "shasum": ""
             },
             "require": {
@@ -7119,18 +7130,6 @@
             ],
             "funding": [
                 {
-                    "url": "https://certification.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://live.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://symfony.com/cloud/",
-                    "type": "custom"
-                },
-                {
                     "url": "https://github.com/fabpot",
                     "type": "github"
                 },
@@ -7139,11 +7138,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-21T09:56:39+00:00"
+            "time": "2020-08-05T14:54:08+00:00"
         },
         {
             "name": "twig/string-extra",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/string-extra.git",
@@ -7220,16 +7219,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "582bdbdc173027ebfba3c93dc750a40b8f9ebc02"
+                "reference": "9b76b1535483cdf4edf01bb787b0217b62bd68a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/582bdbdc173027ebfba3c93dc750a40b8f9ebc02",
-                "reference": "582bdbdc173027ebfba3c93dc750a40b8f9ebc02",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/9b76b1535483cdf4edf01bb787b0217b62bd68a5",
+                "reference": "9b76b1535483cdf4edf01bb787b0217b62bd68a5",
                 "shasum": ""
             },
             "require": {
@@ -7280,18 +7279,6 @@
             ],
             "funding": [
                 {
-                    "url": "https://certification.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://live.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://symfony.com/cloud/",
-                    "type": "custom"
-                },
-                {
                     "url": "https://github.com/fabpot",
                     "type": "github"
                 },
@@ -7300,7 +7287,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-05T13:18:14+00:00"
+            "time": "2020-08-05T15:13:19+00:00"
         },
         {
             "name": "vakata/jstree",
@@ -7513,16 +7500,16 @@
         },
         {
             "name": "zikula/admin-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/AdminModule.git",
-                "reference": "8d7f18fcc3e978d54bba7c003488ede830a385e1"
+                "reference": "56f07ecf3c1d98ad35a5bbde2813beb9a79ced07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/8d7f18fcc3e978d54bba7c003488ede830a385e1",
-                "reference": "8d7f18fcc3e978d54bba7c003488ede830a385e1",
+                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/56f07ecf3c1d98ad35a5bbde2813beb9a79ced07",
+                "reference": "56f07ecf3c1d98ad35a5bbde2813beb9a79ced07",
                 "shasum": ""
             },
             "require": {
@@ -7566,20 +7553,20 @@
                 }
             ],
             "description": "Backend administration interface",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/atom-theme",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/AtomTheme.git",
-                "reference": "c01144021e14c1d8979f123d1d2165e3c1ac48bb"
+                "reference": "6b183d747329f30d91ad19d019a3e4cbb7d343cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/AtomTheme/zipball/c01144021e14c1d8979f123d1d2165e3c1ac48bb",
-                "reference": "c01144021e14c1d8979f123d1d2165e3c1ac48bb",
+                "url": "https://api.github.com/repos/zikula/AtomTheme/zipball/6b183d747329f30d91ad19d019a3e4cbb7d343cb",
+                "reference": "6b183d747329f30d91ad19d019a3e4cbb7d343cb",
                 "shasum": ""
             },
             "require": {
@@ -7620,20 +7607,20 @@
                 }
             ],
             "description": "The Atom theme is an auxiliary theme specially designed for rendering pages in Atom mark-up.",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/blocks-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/BlocksModule.git",
-                "reference": "70d97782f5fdce7e1bce49741a8b74273c0211e0"
+                "reference": "a9122c9bcf52018d1192981769ba7d0c78bdd2ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/70d97782f5fdce7e1bce49741a8b74273c0211e0",
-                "reference": "70d97782f5fdce7e1bce49741a8b74273c0211e0",
+                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/a9122c9bcf52018d1192981769ba7d0c78bdd2ec",
+                "reference": "a9122c9bcf52018d1192981769ba7d0c78bdd2ec",
                 "shasum": ""
             },
             "require": {
@@ -7686,20 +7673,20 @@
                 }
             ],
             "description": "Blocks administration",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/bootstrap-theme",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/BootstrapTheme.git",
-                "reference": "51df88a9c8bcbd9174d25aabbe6a41c6e156824c"
+                "reference": "d0720ad286deb0242028822949cd0af9a1701f49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/BootstrapTheme/zipball/51df88a9c8bcbd9174d25aabbe6a41c6e156824c",
-                "reference": "51df88a9c8bcbd9174d25aabbe6a41c6e156824c",
+                "url": "https://api.github.com/repos/zikula/BootstrapTheme/zipball/d0720ad286deb0242028822949cd0af9a1701f49",
+                "reference": "d0720ad286deb0242028822949cd0af9a1701f49",
                 "shasum": ""
             },
             "require": {
@@ -7741,20 +7728,20 @@
                 }
             ],
             "description": "Bootstrap based theme",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/categories-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CategoriesModule.git",
-                "reference": "7df9eadd83dfaa688b908e2f918f2f65975f3b64"
+                "reference": "b68ece5b4f75e3578612d9160bdf09512137503f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/7df9eadd83dfaa688b908e2f918f2f65975f3b64",
-                "reference": "7df9eadd83dfaa688b908e2f918f2f65975f3b64",
+                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/b68ece5b4f75e3578612d9160bdf09512137503f",
+                "reference": "b68ece5b4f75e3578612d9160bdf09512137503f",
                 "shasum": ""
             },
             "require": {
@@ -7796,20 +7783,20 @@
                 }
             ],
             "description": "Categories administration",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/core-bundle",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreBundle.git",
-                "reference": "08271a286318f9ed3a8dfe493c4021589f508b3b"
+                "reference": "1b237c755eba1a63941301b28a636c07dcc987dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/08271a286318f9ed3a8dfe493c4021589f508b3b",
-                "reference": "08271a286318f9ed3a8dfe493c4021589f508b3b",
+                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/1b237c755eba1a63941301b28a636c07dcc987dd",
+                "reference": "1b237c755eba1a63941301b28a636c07dcc987dd",
                 "shasum": ""
             },
             "require": {
@@ -7871,20 +7858,20 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-07-25T13:01:27+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/coreinstaller-bundle",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreInstallerBundle.git",
-                "reference": "4834b131969849de95a40ada8029d47b3f029ddb"
+                "reference": "a791428799cf859048408f3e3c4c5ab1280eef5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CoreInstallerBundle/zipball/4834b131969849de95a40ada8029d47b3f029ddb",
-                "reference": "4834b131969849de95a40ada8029d47b3f029ddb",
+                "url": "https://api.github.com/repos/zikula/CoreInstallerBundle/zipball/a791428799cf859048408f3e3c4c5ab1280eef5e",
+                "reference": "a791428799cf859048408f3e3c4c5ab1280eef5e",
                 "shasum": ""
             },
             "require": {
@@ -7917,20 +7904,20 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-07-23T13:46:26+00:00"
+            "time": "2020-07-28T12:09:03+00:00"
         },
         {
             "name": "zikula/extensions-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ExtensionsModule.git",
-                "reference": "33268b24984dc71005be88c09d1abcfc304c5039"
+                "reference": "dfba91e1824aec86c07991d0db5de08213502199"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/33268b24984dc71005be88c09d1abcfc304c5039",
-                "reference": "33268b24984dc71005be88c09d1abcfc304c5039",
+                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/dfba91e1824aec86c07991d0db5de08213502199",
+                "reference": "dfba91e1824aec86c07991d0db5de08213502199",
                 "shasum": ""
             },
             "require": {
@@ -7974,20 +7961,20 @@
                 }
             ],
             "description": "Extensions administration",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/formextension-bundle",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/FormExtensionBundle.git",
-                "reference": "90da2bb0766ed2b16671a7b4ecabd02301dfa61e"
+                "reference": "b4de9ec6006581ffe443f49cd85186839ddc371b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/FormExtensionBundle/zipball/90da2bb0766ed2b16671a7b4ecabd02301dfa61e",
-                "reference": "90da2bb0766ed2b16671a7b4ecabd02301dfa61e",
+                "url": "https://api.github.com/repos/zikula/FormExtensionBundle/zipball/b4de9ec6006581ffe443f49cd85186839ddc371b",
+                "reference": "b4de9ec6006581ffe443f49cd85186839ddc371b",
                 "shasum": ""
             },
             "require": {
@@ -8016,20 +8003,20 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-07-24T15:59:43+00:00"
+            "time": "2020-07-28T12:09:03+00:00"
         },
         {
             "name": "zikula/groups-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/GroupsModule.git",
-                "reference": "d438bffbe2b20af725510c4862eb478273517a13"
+                "reference": "78f90de133bc2835892ea18f73eacf74bc28fde1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/GroupsModule/zipball/d438bffbe2b20af725510c4862eb478273517a13",
-                "reference": "d438bffbe2b20af725510c4862eb478273517a13",
+                "url": "https://api.github.com/repos/zikula/GroupsModule/zipball/78f90de133bc2835892ea18f73eacf74bc28fde1",
+                "reference": "78f90de133bc2835892ea18f73eacf74bc28fde1",
                 "shasum": ""
             },
             "require": {
@@ -8075,20 +8062,20 @@
                 }
             ],
             "description": "User group administration",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/hook-bundle",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/HookBundle.git",
-                "reference": "28af1849425dd2a5063a58c574548a6c7487a448"
+                "reference": "6e51ed3e2c5c31eb12d49237d26eae483cea4556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/HookBundle/zipball/28af1849425dd2a5063a58c574548a6c7487a448",
-                "reference": "28af1849425dd2a5063a58c574548a6c7487a448",
+                "url": "https://api.github.com/repos/zikula/HookBundle/zipball/6e51ed3e2c5c31eb12d49237d26eae483cea4556",
+                "reference": "6e51ed3e2c5c31eb12d49237d26eae483cea4556",
                 "shasum": ""
             },
             "require": {
@@ -8117,7 +8104,7 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-07-23T14:09:30+00:00"
+            "time": "2020-07-28T12:09:03+00:00"
         },
         {
             "name": "zikula/legal-module",
@@ -8187,16 +8174,16 @@
         },
         {
             "name": "zikula/mailer-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/MailerModule.git",
-                "reference": "f9ca01760012852b282d65ff56bc6c650a8b9306"
+                "reference": "1d18b0e301d0287d37046e14eee06d12cc238d4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/MailerModule/zipball/f9ca01760012852b282d65ff56bc6c650a8b9306",
-                "reference": "f9ca01760012852b282d65ff56bc6c650a8b9306",
+                "url": "https://api.github.com/repos/zikula/MailerModule/zipball/1d18b0e301d0287d37046e14eee06d12cc238d4a",
+                "reference": "1d18b0e301d0287d37046e14eee06d12cc238d4a",
                 "shasum": ""
             },
             "require": {
@@ -8238,20 +8225,20 @@
                 }
             ],
             "description": "Mailer support",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/menu-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/MenuModule.git",
-                "reference": "0a955ceb255ca7d55d38a2bf573830c113c93f9b"
+                "reference": "dfff8a300032be56815faa3818a731504beaf466"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/MenuModule/zipball/0a955ceb255ca7d55d38a2bf573830c113c93f9b",
-                "reference": "0a955ceb255ca7d55d38a2bf573830c113c93f9b",
+                "url": "https://api.github.com/repos/zikula/MenuModule/zipball/dfff8a300032be56815faa3818a731504beaf466",
+                "reference": "dfff8a300032be56815faa3818a731504beaf466",
                 "shasum": ""
             },
             "require": {
@@ -8294,7 +8281,7 @@
                 }
             ],
             "description": "Menu management",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/oauth-module",
@@ -8405,16 +8392,16 @@
         },
         {
             "name": "zikula/permissions-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/PermissionsModule.git",
-                "reference": "b61cca368c281bf4f198ba2597bf0157400785ec"
+                "reference": "0fb9b6129cd7ee2d4a43f3f5490801afbd32d879"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/PermissionsModule/zipball/b61cca368c281bf4f198ba2597bf0157400785ec",
-                "reference": "b61cca368c281bf4f198ba2597bf0157400785ec",
+                "url": "https://api.github.com/repos/zikula/PermissionsModule/zipball/0fb9b6129cd7ee2d4a43f3f5490801afbd32d879",
+                "reference": "0fb9b6129cd7ee2d4a43f3f5490801afbd32d879",
                 "shasum": ""
             },
             "require": {
@@ -8455,20 +8442,20 @@
                 }
             ],
             "description": "User permissions manager",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/printer-theme",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/PrinterTheme.git",
-                "reference": "49b9c831f9f879ad17c7d49bb259f1fd0604f215"
+                "reference": "e886f7c765f1e4762c9426cd3053940702f905a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/PrinterTheme/zipball/49b9c831f9f879ad17c7d49bb259f1fd0604f215",
-                "reference": "49b9c831f9f879ad17c7d49bb259f1fd0604f215",
+                "url": "https://api.github.com/repos/zikula/PrinterTheme/zipball/e886f7c765f1e4762c9426cd3053940702f905a0",
+                "reference": "e886f7c765f1e4762c9426cd3053940702f905a0",
                 "shasum": ""
             },
             "require": {
@@ -8509,7 +8496,7 @@
                 }
             ],
             "description": "The Printer theme is an auxiliary theme designed specially for outputting pages in a printer-friendly format.",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/profile-module",
@@ -8582,16 +8569,16 @@
         },
         {
             "name": "zikula/routes-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/RoutesModule.git",
-                "reference": "b324786c71cf6e8329990d234eebca18002bcab1"
+                "reference": "ba763155b8da9df727dc304df517dc793a654592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/RoutesModule/zipball/b324786c71cf6e8329990d234eebca18002bcab1",
-                "reference": "b324786c71cf6e8329990d234eebca18002bcab1",
+                "url": "https://api.github.com/repos/zikula/RoutesModule/zipball/ba763155b8da9df727dc304df517dc793a654592",
+                "reference": "ba763155b8da9df727dc304df517dc793a654592",
                 "shasum": ""
             },
             "require": {
@@ -8641,20 +8628,20 @@
                 }
             ],
             "description": "Routes management",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/rss-theme",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/RssTheme.git",
-                "reference": "b3add649e1f36db2d5bd1bcd1c29671b1fcde5b6"
+                "reference": "15eff8c1b23d0dd388ead0a252a1bd5791afe2a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/RssTheme/zipball/b3add649e1f36db2d5bd1bcd1c29671b1fcde5b6",
-                "reference": "b3add649e1f36db2d5bd1bcd1c29671b1fcde5b6",
+                "url": "https://api.github.com/repos/zikula/RssTheme/zipball/15eff8c1b23d0dd388ead0a252a1bd5791afe2a7",
+                "reference": "15eff8c1b23d0dd388ead0a252a1bd5791afe2a7",
                 "shasum": ""
             },
             "require": {
@@ -8695,20 +8682,20 @@
                 }
             ],
             "description": "The RSS theme is an auxiliary theme designed specially for outputting pages as an RSS feed.",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/search-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SearchModule.git",
-                "reference": "35d8f2cbcd130b4a1f787ab210ffef0230d86cd3"
+                "reference": "ab3a0d61f44ff51b4b12f591e83f94c4ab34d993"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SearchModule/zipball/35d8f2cbcd130b4a1f787ab210ffef0230d86cd3",
-                "reference": "35d8f2cbcd130b4a1f787ab210ffef0230d86cd3",
+                "url": "https://api.github.com/repos/zikula/SearchModule/zipball/ab3a0d61f44ff51b4b12f591e83f94c4ab34d993",
+                "reference": "ab3a0d61f44ff51b4b12f591e83f94c4ab34d993",
                 "shasum": ""
             },
             "require": {
@@ -8753,20 +8740,20 @@
                 }
             ],
             "description": "Site search support",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/securitycenter-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SecurityCenterModule.git",
-                "reference": "bd6558408f58ed8ba59d26be412efd4f6ed81ec7"
+                "reference": "b8b2ebbdf1a894b6700abbc311c27d82a6e59938"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SecurityCenterModule/zipball/bd6558408f58ed8ba59d26be412efd4f6ed81ec7",
-                "reference": "bd6558408f58ed8ba59d26be412efd4f6ed81ec7",
+                "url": "https://api.github.com/repos/zikula/SecurityCenterModule/zipball/b8b2ebbdf1a894b6700abbc311c27d82a6e59938",
+                "reference": "b8b2ebbdf1a894b6700abbc311c27d82a6e59938",
                 "shasum": ""
             },
             "require": {
@@ -8808,20 +8795,20 @@
                 }
             ],
             "description": "Security administration",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/settings-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SettingsModule.git",
-                "reference": "994381d79b14a7483248c6dd648a3f24172bd17a"
+                "reference": "3346d1ca98aff2ba247ac24e0cadda70f213ee30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/994381d79b14a7483248c6dd648a3f24172bd17a",
-                "reference": "994381d79b14a7483248c6dd648a3f24172bd17a",
+                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/3346d1ca98aff2ba247ac24e0cadda70f213ee30",
+                "reference": "3346d1ca98aff2ba247ac24e0cadda70f213ee30",
                 "shasum": ""
             },
             "require": {
@@ -8868,7 +8855,7 @@
                 }
             ],
             "description": "System settings administration",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/sortable-columns",
@@ -8921,16 +8908,16 @@
         },
         {
             "name": "zikula/theme-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ThemeModule.git",
-                "reference": "7cc90ece4dae1d755f98c90063c924516dcdd6ca"
+                "reference": "8938cebe3251b53b3109bb1e150f2772035bf359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/7cc90ece4dae1d755f98c90063c924516dcdd6ca",
-                "reference": "7cc90ece4dae1d755f98c90063c924516dcdd6ca",
+                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/8938cebe3251b53b3109bb1e150f2772035bf359",
+                "reference": "8938cebe3251b53b3109bb1e150f2772035bf359",
                 "shasum": ""
             },
             "require": {
@@ -8993,20 +8980,20 @@
                 }
             ],
             "description": "Theme system and administration",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/users-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/UsersModule.git",
-                "reference": "561b915d2e8fcfd20caeacc1045f742609ec46ec"
+                "reference": "5cb77dfd8f7ef24bb51f31923e44ddd2403407b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/561b915d2e8fcfd20caeacc1045f742609ec46ec",
-                "reference": "561b915d2e8fcfd20caeacc1045f742609ec46ec",
+                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/5cb77dfd8f7ef24bb51f31923e44ddd2403407b2",
+                "reference": "5cb77dfd8f7ef24bb51f31923e44ddd2403407b2",
                 "shasum": ""
             },
             "require": {
@@ -9057,7 +9044,7 @@
                 }
             ],
             "description": "User account administration",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         },
         {
             "name": "zikula/wizard",
@@ -9106,16 +9093,16 @@
         },
         {
             "name": "zikula/workflow-bundle",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/WorkflowBundle.git",
-                "reference": "6a9cfac39edf544798819ff4478147ff0715b5e6"
+                "reference": "12a6faacbc31e53a7d270b920588919b97cb2a6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/WorkflowBundle/zipball/6a9cfac39edf544798819ff4478147ff0715b5e6",
-                "reference": "6a9cfac39edf544798819ff4478147ff0715b5e6",
+                "url": "https://api.github.com/repos/zikula/WorkflowBundle/zipball/12a6faacbc31e53a7d270b920588919b97cb2a6d",
+                "reference": "12a6faacbc31e53a7d270b920588919b97cb2a6d",
                 "shasum": ""
             },
             "require": {
@@ -9144,20 +9131,20 @@
             "keywords": [
                 "zikula"
             ],
-            "time": "2020-07-11T21:34:38+00:00"
+            "time": "2020-09-04T11:30:48+00:00"
         },
         {
             "name": "zikula/zauth-module",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ZAuthModule.git",
-                "reference": "1e171b53e79d1abe46b737a2008cb9727b49f009"
+                "reference": "e1a194875f377761361d4112dfa3f5a3362a134c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/1e171b53e79d1abe46b737a2008cb9727b49f009",
-                "reference": "1e171b53e79d1abe46b737a2008cb9727b49f009",
+                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/e1a194875f377761361d4112dfa3f5a3362a134c",
+                "reference": "e1a194875f377761361d4112dfa3f5a3362a134c",
                 "shasum": ""
             },
             "require": {
@@ -9200,7 +9187,7 @@
                 }
             ],
             "description": "Native zikula authentication",
-            "time": "2020-07-25T12:13:30+00:00"
+            "time": "2020-09-04T11:42:06+00:00"
         }
     ],
     "packages-dev": [],
