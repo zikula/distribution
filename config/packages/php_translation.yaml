@@ -1,5 +1,11 @@
-# for all configuration options look at the reference
-# https://php-translation.readthedocs.io/en/latest/symfony/configuration-reference.html
 translation:
-    locales: '%localisation.locales%'
-    # configs are dynamically written into config/dynamic/generated.yaml
+    locales: ["en"]
+    edit_in_place:
+        enabled: false
+        config_name: app
+    configs:
+        app:
+            dirs: ["%kernel.project_dir%/templates", "%kernel.project_dir%/src"]
+            output_dir: "%kernel.project_dir%/translations"
+            excluded_names: ["*TestCase.php", "*Test.php"]
+            excluded_dirs: [cache, data, logs]
