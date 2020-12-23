@@ -66,24 +66,24 @@
         }
     ],
     "scripts": {
-        "zikula-scripts": [
-            "composer dump-autoload",
-            "bin/console cache:clear --env prod",
-            "bin/console assets:install --relative public",
-            "Zikula\\ExtensionsModule\\Composer\\ManuallyInstallAssets::install"
-        ],
         "post-install-cmd": [
+            "@auto-scripts",
             "@zikula-scripts"
         ],
         "post-update-cmd": [
+            "@auto-scripts",
             "@zikula-scripts"
         ],
         "auto-scripts": {
-            "cache:clear": "symfony-cmd",
+            "cache:clear --env prod": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd",
             "security-checker security:check": "script",
             "requirements-checker": "script"
-        }
+        },
+        "zikula-scripts": [
+            "composer dump-autoload",
+            "Zikula\\ExtensionsModule\\Composer\\ManuallyInstallAssets::install"
+        ]
     },
     "config": {
         "platform": {
