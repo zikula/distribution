@@ -21,12 +21,39 @@
         "ext-mbstring": "*",
         "ext-json": "*",
         "ext-pdo": "*",
-        "zikula/core-bundle": "3.*",
 
-        "zikula/legal-module": "3.*",
-        "zikula/oauth-module": "1.*",
-        "zikula/pagelock-module": "1.*",
-        "zikula/profile-module": "3.*"
+        "zikula/core-bundle": "dev-master",
+        "zikula/coreinstaller-bundle": "dev-master",
+        "zikula/formextension-bundle": "dev-master",
+        "zikula/hook-bundle": "dev-master",
+        "zikula/workflow-bundle": "dev-master",
+
+        "zikula/admin-module": "dev-master",
+        "zikula/atom-theme": "dev-master",
+        "zikula/blocks-module": "dev-master",
+        "zikula/bootstrap-theme": "dev-master",
+        "zikula/categories-module": "dev-master",
+        "zikula/default-theme": "dev-master",
+        "zikula/extensions-module": "dev-master",
+        "zikula/groups-module": "dev-master",
+        "zikula/mailer-module": "dev-master",
+        "zikula/menu-module": "dev-master",
+        "zikula/permissions-module": "dev-master",
+        "zikula/printer-theme": "dev-master",
+        "zikula/routes-module": "dev-master",
+        "zikula/rss-theme": "dev-master",
+        "zikula/search-module": "dev-master",
+        "zikula/securitycenter-module": "dev-master",
+        "zikula/settings-module": "dev-master",
+        "zikula/theme-module": "dev-master",
+        "zikula/users-module": "dev-master",
+        "zikula/zauth-module": "dev-master",
+        "zikula/sortable-columns": "1.*",
+
+        "zikula/legal-module": "dev-master",
+        "zikula/oauth-module": "dev-master",
+        "zikula/pagelock-module": "dev-master",
+        "zikula/profile-module": "dev-master"
     },
     "repositories": [
         {
@@ -38,10 +65,8 @@
         "zikula-scripts": [
             "composer dump-autoload",
             "bin/console cache:clear --env prod",
-            "bin/console cache:clear",
             "bin/console assets:install --relative public",
-            "Zikula\\ExtensionsModule\\Composer\\ManuallyInstallAssets::install",
-            "Zikula\\ExtensionsModule\\Composer\\RequireJsConfigGenerator::regenerateRequireJs"
+            "Zikula\\ExtensionsModule\\Composer\\ManuallyInstallAssets::install"
         ],
         "post-install-cmd": [
             "@zikula-scripts"
@@ -55,8 +80,7 @@
             "php": "7.2.5"
         },
         "bin-dir": "bin",
-        "sort-packages": true,
-        "component-dir": "public"
+        "sort-packages": true
     },
     "extra": {
         "symfony-assets-install": "relative",
