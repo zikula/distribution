@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "859aae646acee7546f44e004f66e3c28",
+    "content-hash": "bc6e08f1f3ac04b72c3069fdacd2e8a0",
     "packages": [
         {
             "name": "antishov/doctrine-extensions-bundle",
@@ -4386,6 +4386,63 @@
                 }
             ],
             "time": "2020-09-19T11:20:47+00:00"
+        },
+        {
+            "name": "oomphinc/composer-installers-extender",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oomphinc/composer-installers-extender.git",
+                "reference": "8d3fe38a1723e0e91076920c8bb946b1696e28ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oomphinc/composer-installers-extender/zipball/8d3fe38a1723e0e91076920c8bb946b1696e28ca",
+                "reference": "8d3fe38a1723e0e91076920c8bb946b1696e28ca",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1 || ^2.0",
+                "composer/installers": "^1.0",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0",
+                "phpunit/phpunit": "^7.2",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "OomphInc\\ComposerInstallersExtender\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "OomphInc\\ComposerInstallersExtender\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Beemsterboer",
+                    "email": "stephen@oomphinc.com",
+                    "homepage": "https://github.com/balbuf"
+                },
+                {
+                    "name": "Nathan Dentzau",
+                    "email": "nate@oomphinc.com",
+                    "homepage": "http://oomph.is/ndentzau"
+                }
+            ],
+            "description": "Extend the composer/installers plugin to accept any arbitrary package type.",
+            "homepage": "http://www.oomphinc.com/",
+            "support": {
+                "issues": "https://github.com/oomphinc/composer-installers-extender/issues",
+                "source": "https://github.com/oomphinc/composer-installers-extender/tree/2.0.0"
+            },
+            "time": "2020-08-11T21:06:11+00:00"
         },
         {
             "name": "oro/twig-inspector",
@@ -14247,12 +14304,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ThemeModule.git",
-                "reference": "333f0f72012c92ac6367cf8798a6fc05ed864c21"
+                "reference": "f5361bd6882b002cdc68245c99c14f6296e96226"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/333f0f72012c92ac6367cf8798a6fc05ed864c21",
-                "reference": "333f0f72012c92ac6367cf8798a6fc05ed864c21",
+                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/f5361bd6882b002cdc68245c99c14f6296e96226",
+                "reference": "f5361bd6882b002cdc68245c99c14f6296e96226",
                 "shasum": ""
             },
             "require": {
@@ -14266,6 +14323,7 @@
                 "league/commonmark": "^1.0",
                 "league/html-to-markdown": "^4.8",
                 "michelf/php-markdown": "^1.9",
+                "oomphinc/composer-installers-extender": "2.*",
                 "oro/twig-inspector": "1.*",
                 "php": ">=7.2.5",
                 "symfony/asset": "^5.2",
@@ -14318,6 +14376,14 @@
                         "admin": {
                             "route": "zikulathememodule_config_config"
                         }
+                    },
+                    "installer-types": [
+                        "component"
+                    ],
+                    "installer-paths": {
+                        "public/{$name}/": [
+                            "type:component"
+                        ]
                     }
                 }
             },
@@ -14340,7 +14406,7 @@
             "support": {
                 "source": "https://github.com/zikula/ThemeModule/tree/master"
             },
-            "time": "2020-12-21T20:54:14+00:00"
+            "time": "2020-12-23T13:07:57+00:00"
         },
         {
             "name": "zikula/users-module",
@@ -14632,26 +14698,23 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "zikula/core-bundle": 20,
+        "zikula/coreinstaller-bundle": 20,
+        "zikula/formextension-bundle": 20,
+        "zikula/hook-bundle": 20,
+        "zikula/workflow-bundle": 20,
         "zikula/admin-module": 20,
         "zikula/atom-theme": 20,
         "zikula/blocks-module": 20,
         "zikula/bootstrap-theme": 20,
         "zikula/categories-module": 20,
-        "zikula/core-bundle": 20,
-        "zikula/coreinstaller-bundle": 20,
         "zikula/default-theme": 20,
         "zikula/extensions-module": 20,
-        "zikula/formextension-bundle": 20,
         "zikula/groups-module": 20,
-        "zikula/hook-bundle": 20,
-        "zikula/legal-module": 20,
         "zikula/mailer-module": 20,
         "zikula/menu-module": 20,
-        "zikula/oauth-module": 20,
-        "zikula/pagelock-module": 20,
         "zikula/permissions-module": 20,
         "zikula/printer-theme": 20,
-        "zikula/profile-module": 20,
         "zikula/routes-module": 20,
         "zikula/rss-theme": 20,
         "zikula/search-module": 20,
@@ -14659,8 +14722,11 @@
         "zikula/settings-module": 20,
         "zikula/theme-module": 20,
         "zikula/users-module": 20,
-        "zikula/workflow-bundle": 20,
-        "zikula/zauth-module": 20
+        "zikula/zauth-module": 20,
+        "zikula/legal-module": 20,
+        "zikula/oauth-module": 20,
+        "zikula/pagelock-module": 20,
+        "zikula/profile-module": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

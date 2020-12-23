@@ -93,7 +93,9 @@
     },
     "extra": {
         "symfony-assets-install": "relative",
+        "installer-types": ["component"],
         "installer-paths": {
+            "public/{$name}/": ["type:component"],
             "src/extensions/{$vendor}/{$name}": ["type:zikula-module", "type:zikula-theme"]
         }
     }

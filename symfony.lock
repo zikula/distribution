@@ -225,6 +225,9 @@
     "nyholm/nsa": {
         "version": "1.2.1"
     },
+    "oomphinc/composer-installers-extender": {
+        "version": "2.0.0"
+    },
     "oro/twig-inspector": {
         "version": "1.0.3"
     },
