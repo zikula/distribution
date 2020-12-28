@@ -11,6 +11,7 @@
 !/public/site.webmanifest
 /src/extensions/
 /src/preload.php
+/webpack.config.js
 
 ###> symfony/framework-bundle ###
 /.env.local
