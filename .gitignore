@@ -1,7 +1,4 @@
 /bin/
-/config/dynamic/*
-/config/services_custom.yaml
-!/config/dynamic/default.yaml
 /public/*
 !/public/index.php
 !/public/uploads/
@@ -28,3 +25,10 @@
 ###> liip/imagine-bundle ###
 /public/media/cache/
 ###< liip/imagine-bundle ###
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
