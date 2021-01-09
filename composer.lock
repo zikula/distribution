@@ -2254,16 +2254,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.24",
+            "version": "2.1.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "ca90a3291eee1538cd48ff25163240695bd95448"
+                "reference": "0dbf5d78455d4d6a41d186da50adc1122ec066f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ca90a3291eee1538cd48ff25163240695bd95448",
-                "reference": "ca90a3291eee1538cd48ff25163240695bd95448",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/0dbf5d78455d4d6a41d186da50adc1122ec066f4",
+                "reference": "0dbf5d78455d4d6a41d186da50adc1122ec066f4",
                 "shasum": ""
             },
             "require": {
@@ -2310,7 +2310,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/2.1.24"
+                "source": "https://github.com/egulias/EmailValidator/tree/2.1.25"
             },
             "funding": [
                 {
@@ -2318,7 +2318,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-14T15:56:27+00:00"
+            "time": "2020-12-29T14:50:06+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -7698,81 +7698,6 @@
             "time": "2020-12-14T10:10:03+00:00"
         },
         {
-            "name": "symfony/ldap",
-            "version": "v5.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/ldap.git",
-                "reference": "f9b2c074ffeab6046ae72cac965de9ac6dda9cff"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/ldap/zipball/f9b2c074ffeab6046ae72cac965de9ac6dda9cff",
-                "reference": "f9b2c074ffeab6046ae72cac965de9ac6dda9cff",
-                "shasum": ""
-            },
-            "require": {
-                "ext-ldap": "*",
-                "php": ">=7.2.5",
-                "symfony/options-resolver": "^4.4|^5.0",
-                "symfony/polyfill-php80": "^1.15"
-            },
-            "conflict": {
-                "symfony/options-resolver": "<4.4",
-                "symfony/security-core": "<5"
-            },
-            "require-dev": {
-                "symfony/security-core": "^5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Ldap\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Charles Sarrazin",
-                    "email": "charles@sarraz.in"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "An abstraction in front of PHP's LDAP functions, compatible with PHP 5.3.9 onwards.",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "active directory",
-                "ldap"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/ldap/tree/v5.2.1"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2020-12-18T07:32:35+00:00"
-        },
-        {
             "name": "symfony/lock",
             "version": "v5.2.1",
             "source": {
@@ -7935,16 +7860,16 @@
         },
         {
             "name": "symfony/maker-bundle",
-            "version": "v1.26.1",
+            "version": "1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "0f1d3ed2584349dc8700d7908e8a92b3742b1c99"
+                "reference": "a47408fa6e39034a5abe324a46f4e6733266267a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/0f1d3ed2584349dc8700d7908e8a92b3742b1c99",
-                "reference": "0f1d3ed2584349dc8700d7908e8a92b3742b1c99",
+                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/a47408fa6e39034a5abe324a46f4e6733266267a",
+                "reference": "a47408fa6e39034a5abe324a46f4e6733266267a",
                 "shasum": ""
             },
             "require": {
@@ -8003,7 +7928,7 @@
             ],
             "support": {
                 "issues": "https://github.com/symfony/maker-bundle/issues",
-                "source": "https://github.com/symfony/maker-bundle/tree/v1.26.1"
+                "source": "https://github.com/symfony/maker-bundle/tree/1.27.0"
             },
             "funding": [
                 {
@@ -8019,7 +7944,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-18T17:08:39+00:00"
+            "time": "2021-01-08T18:14:10+00:00"
         },
         {
             "name": "symfony/messenger",
@@ -8507,16 +8432,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "f4ba089a5b6366e453971d3aad5fe8e897b37f41"
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f4ba089a5b6366e453971d3aad5fe8e897b37f41",
-                "reference": "f4ba089a5b6366e453971d3aad5fe8e897b37f41",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/c6c942b1ac76c82448322025e084cadc56048b4e",
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e",
                 "shasum": ""
             },
             "require": {
@@ -8528,7 +8453,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -8566,7 +8491,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -8582,20 +8507,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "c7cf3f858ec7d70b89559d6e6eb1f7c2517d479c"
+                "reference": "267a9adeb8ecb8071040a740930e077cdfb987af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/c7cf3f858ec7d70b89559d6e6eb1f7c2517d479c",
-                "reference": "c7cf3f858ec7d70b89559d6e6eb1f7c2517d479c",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/267a9adeb8ecb8071040a740930e077cdfb987af",
+                "reference": "267a9adeb8ecb8071040a740930e077cdfb987af",
                 "shasum": ""
             },
             "require": {
@@ -8607,7 +8532,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -8647,7 +8572,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -8663,33 +8588,32 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "c44d5bf6a75eed79555c6bf37505c6d39559353e"
+                "reference": "b2b1e732a6c039f1a3ea3414b3379a2433e183d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/c44d5bf6a75eed79555c6bf37505c6d39559353e",
-                "reference": "c44d5bf6a75eed79555c6bf37505c6d39559353e",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/b2b1e732a6c039f1a3ea3414b3379a2433e183d6",
+                "reference": "b2b1e732a6c039f1a3ea3414b3379a2433e183d6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1",
-                "symfony/intl": "~2.3|~3.0|~4.0|~5.0"
+                "php": ">=7.1"
             },
             "suggest": {
-                "ext-intl": "For best performance"
+                "ext-intl": "For best performance and support of other locales than \"en\""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -8699,6 +8623,15 @@
             "autoload": {
                 "files": [
                     "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Icu\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ],
+                "exclude-from-classmap": [
+                    "/Tests/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -8726,7 +8659,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-icu/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-intl-icu/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -8742,20 +8675,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "3b75acd829741c768bc8b1f84eb33265e7cc5117"
+                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/3b75acd829741c768bc8b1f84eb33265e7cc5117",
-                "reference": "3b75acd829741c768bc8b1f84eb33265e7cc5117",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
+                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
                 "shasum": ""
             },
             "require": {
@@ -8769,7 +8702,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -8813,7 +8746,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -8829,20 +8762,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-messageformatter",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-messageformatter.git",
-                "reference": "2af0ae1f018fb07b415880319c8f0aa8293a53b1"
+                "reference": "20ecb90817106e57026c338801e105171ddd76d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-messageformatter/zipball/2af0ae1f018fb07b415880319c8f0aa8293a53b1",
-                "reference": "2af0ae1f018fb07b415880319c8f0aa8293a53b1",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-messageformatter/zipball/20ecb90817106e57026c338801e105171ddd76d7",
+                "reference": "20ecb90817106e57026c338801e105171ddd76d7",
                 "shasum": ""
             },
             "require": {
@@ -8854,7 +8787,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -8897,7 +8830,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-messageformatter/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-intl-messageformatter/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -8913,20 +8846,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "727d1096295d807c309fb01a851577302394c897"
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/727d1096295d807c309fb01a851577302394c897",
-                "reference": "727d1096295d807c309fb01a851577302394c897",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/6e971c891537eb617a00bb07a43d182a6915faba",
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba",
                 "shasum": ""
             },
             "require": {
@@ -8938,7 +8871,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -8981,7 +8914,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -8997,20 +8930,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T17:09:11+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "39d483bdf39be819deabf04ec872eb0b2410b531"
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/39d483bdf39be819deabf04ec872eb0b2410b531",
-                "reference": "39d483bdf39be819deabf04ec872eb0b2410b531",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
                 "shasum": ""
             },
             "require": {
@@ -9022,7 +8955,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -9061,7 +8994,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -9077,20 +9010,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "cede45fcdfabdd6043b3592e83678e42ec69e930"
+                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/cede45fcdfabdd6043b3592e83678e42ec69e930",
-                "reference": "cede45fcdfabdd6043b3592e83678e42ec69e930",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
+                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
                 "shasum": ""
             },
             "require": {
@@ -9099,7 +9032,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -9137,7 +9070,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -9153,20 +9086,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "8ff431c517be11c78c48a39a66d37431e26a6bed"
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/8ff431c517be11c78c48a39a66d37431e26a6bed",
-                "reference": "8ff431c517be11c78c48a39a66d37431e26a6bed",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
                 "shasum": ""
             },
             "require": {
@@ -9175,7 +9108,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -9216,7 +9149,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -9232,20 +9165,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "e70aa8b064c5b72d3df2abd5ab1e90464ad009de"
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/e70aa8b064c5b72d3df2abd5ab1e90464ad009de",
-                "reference": "e70aa8b064c5b72d3df2abd5ab1e90464ad009de",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
                 "shasum": ""
             },
             "require": {
@@ -9254,7 +9187,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -9299,7 +9232,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -9315,20 +9248,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-uuid",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-uuid.git",
-                "reference": "7095799250ff244f3015dc492480175a249e7b55"
+                "reference": "17e0611d2e180a91d02b4fa8b03aab0368b661bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-uuid/zipball/7095799250ff244f3015dc492480175a249e7b55",
-                "reference": "7095799250ff244f3015dc492480175a249e7b55",
+                "url": "https://api.github.com/repos/symfony/polyfill-uuid/zipball/17e0611d2e180a91d02b4fa8b03aab0368b661bc",
+                "reference": "17e0611d2e180a91d02b4fa8b03aab0368b661bc",
                 "shasum": ""
             },
             "require": {
@@ -9340,7 +9273,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -9378,7 +9311,7 @@
                 "uuid"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -9394,7 +9327,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/process",
@@ -11707,16 +11640,16 @@
         },
         {
             "name": "twig/cssinliner-extra",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/cssinliner-extra.git",
-                "reference": "0c837fec0bdcb723e84346df421c5a3f4e696e3c"
+                "reference": "89a7b0f64c1296068864d540567428210c9de340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/cssinliner-extra/zipball/0c837fec0bdcb723e84346df421c5a3f4e696e3c",
-                "reference": "0c837fec0bdcb723e84346df421c5a3f4e696e3c",
+                "url": "https://api.github.com/repos/twigphp/cssinliner-extra/zipball/89a7b0f64c1296068864d540567428210c9de340",
+                "reference": "89a7b0f64c1296068864d540567428210c9de340",
                 "shasum": ""
             },
             "require": {
@@ -11730,13 +11663,16 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.12-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Twig\\Extra\\CssInliner\\": "src/"
-                }
+                    "Twig\\Extra\\CssInliner\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -11758,7 +11694,7 @@
                 "twig"
             ],
             "support": {
-                "source": "https://github.com/twigphp/cssinliner-extra/tree/v3.0.5"
+                "source": "https://github.com/twigphp/cssinliner-extra/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -11770,45 +11706,51 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-21T09:54:27+00:00"
+            "time": "2021-01-01T14:58:18+00:00"
         },
         {
             "name": "twig/extra-bundle",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/twig-extra-bundle.git",
-                "reference": "a7c5799cf742ab0827f5d32df37528ee8bf5a233"
+                "reference": "07c94c7dcfe7e49abd45d4083ca5544a34969714"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/twig-extra-bundle/zipball/a7c5799cf742ab0827f5d32df37528ee8bf5a233",
-                "reference": "a7c5799cf742ab0827f5d32df37528ee8bf5a233",
+                "url": "https://api.github.com/repos/twigphp/twig-extra-bundle/zipball/07c94c7dcfe7e49abd45d4083ca5544a34969714",
+                "reference": "07c94c7dcfe7e49abd45d4083ca5544a34969714",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3|^8.0",
                 "symfony/framework-bundle": "^4.3|^5.0",
                 "symfony/twig-bundle": "^4.3|^5.0",
-                "twig/twig": "^2.4|^3.0"
+                "twig/twig": "^3.2"
             },
             "require-dev": {
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9",
+                "twig/cache-extra": "^3.0",
                 "twig/cssinliner-extra": "^2.12|^3.0",
                 "twig/html-extra": "^2.12|^3.0",
                 "twig/inky-extra": "^2.12|^3.0",
                 "twig/intl-extra": "^2.12|^3.0",
-                "twig/markdown-extra": "^2.12|^3.0"
+                "twig/markdown-extra": "^2.12|^3.0",
+                "twig/string-extra": "^2.12|^3.0"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Twig\\Extra\\TwigExtraBundle\\": "src/"
-                }
+                    "Twig\\Extra\\TwigExtraBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -11830,7 +11772,7 @@
                 "twig"
             ],
             "support": {
-                "source": "https://github.com/twigphp/twig-extra-bundle/tree/v3.1.1"
+                "source": "https://github.com/twigphp/twig-extra-bundle/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -11842,20 +11784,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-21T09:56:39+00:00"
+            "time": "2021-01-05T15:24:51+00:00"
         },
         {
             "name": "twig/html-extra",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/html-extra.git",
-                "reference": "07e2cd13227e0f2b3ecfc0a859ef4d7c140ac98a"
+                "reference": "fb14ea62ddb1ab4dab44eb87c087b6f89dbc4df2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/html-extra/zipball/07e2cd13227e0f2b3ecfc0a859ef4d7c140ac98a",
-                "reference": "07e2cd13227e0f2b3ecfc0a859ef4d7c140ac98a",
+                "url": "https://api.github.com/repos/twigphp/html-extra/zipball/fb14ea62ddb1ab4dab44eb87c087b6f89dbc4df2",
+                "reference": "fb14ea62ddb1ab4dab44eb87c087b6f89dbc4df2",
                 "shasum": ""
             },
             "require": {
@@ -11869,13 +11811,16 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Twig\\Extra\\Html\\": "src/"
-                }
+                    "Twig\\Extra\\Html\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -11896,7 +11841,7 @@
                 "twig"
             ],
             "support": {
-                "source": "https://github.com/twigphp/html-extra/tree/v3.1.1"
+                "source": "https://github.com/twigphp/html-extra/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -11908,20 +11853,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-21T09:56:39+00:00"
+            "time": "2021-01-01T14:58:18+00:00"
         },
         {
             "name": "twig/inky-extra",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/inky-extra.git",
-                "reference": "b5749085e976a8a1d01b251149b41544db50f669"
+                "reference": "36c77999814ac64617e03ce7b8092c3c4dab5e4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/inky-extra/zipball/b5749085e976a8a1d01b251149b41544db50f669",
-                "reference": "b5749085e976a8a1d01b251149b41544db50f669",
+                "url": "https://api.github.com/repos/twigphp/inky-extra/zipball/36c77999814ac64617e03ce7b8092c3c4dab5e4d",
+                "reference": "36c77999814ac64617e03ce7b8092c3c4dab5e4d",
                 "shasum": ""
             },
             "require": {
@@ -11935,13 +11880,16 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.12-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Twig\\Extra\\Inky\\": "src/"
-                }
+                    "Twig\\Extra\\Inky\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -11964,7 +11912,7 @@
                 "twig"
             ],
             "support": {
-                "source": "https://github.com/twigphp/inky-extra/tree/v3.1.1"
+                "source": "https://github.com/twigphp/inky-extra/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -11976,20 +11924,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-21T09:54:27+00:00"
+            "time": "2021-01-01T14:58:18+00:00"
         },
         {
             "name": "twig/intl-extra",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/intl-extra.git",
-                "reference": "6f1889920753e6ffd72b06fc1d9b363ec2cec540"
+                "reference": "919e8f945c30bd3efeb6a4d79722cda538116658"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/intl-extra/zipball/6f1889920753e6ffd72b06fc1d9b363ec2cec540",
-                "reference": "6f1889920753e6ffd72b06fc1d9b363ec2cec540",
+                "url": "https://api.github.com/repos/twigphp/intl-extra/zipball/919e8f945c30bd3efeb6a4d79722cda538116658",
+                "reference": "919e8f945c30bd3efeb6a4d79722cda538116658",
                 "shasum": ""
             },
             "require": {
@@ -12003,13 +11951,16 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Twig\\Extra\\Intl\\": "src/"
-                }
+                    "Twig\\Extra\\Intl\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -12030,7 +11981,7 @@
                 "twig"
             ],
             "support": {
-                "source": "https://github.com/twigphp/intl-extra/tree/v3.1.1"
+                "source": "https://github.com/twigphp/intl-extra/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -12042,20 +11993,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-22T06:17:05+00:00"
+            "time": "2021-01-01T14:58:18+00:00"
         },
         {
             "name": "twig/markdown-extra",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/markdown-extra.git",
-                "reference": "1fe798d559665b64bda4b08eda10793427d7e3bc"
+                "reference": "48142a7727b2b84691f843056346d534933f1d3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/markdown-extra/zipball/1fe798d559665b64bda4b08eda10793427d7e3bc",
-                "reference": "1fe798d559665b64bda4b08eda10793427d7e3bc",
+                "url": "https://api.github.com/repos/twigphp/markdown-extra/zipball/48142a7727b2b84691f843056346d534933f1d3f",
+                "reference": "48142a7727b2b84691f843056346d534933f1d3f",
                 "shasum": ""
             },
             "require": {
@@ -12072,13 +12023,16 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Twig\\Extra\\Markdown\\": "src/"
-                }
+                    "Twig\\Extra\\Markdown\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -12100,7 +12054,7 @@
                 "twig"
             ],
             "support": {
-                "source": "https://github.com/twigphp/markdown-extra/tree/v3.1.1"
+                "source": "https://github.com/twigphp/markdown-extra/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -12112,20 +12066,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-05T14:54:08+00:00"
+            "time": "2021-01-01T14:58:18+00:00"
         },
         {
             "name": "twig/string-extra",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/string-extra.git",
-                "reference": "8e9b436d25b9473e9dc163c83cff1eb9f5dd68c4"
+                "reference": "8aaf91255d3c524dc09d3e474e3172626ac05c2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/string-extra/zipball/8e9b436d25b9473e9dc163c83cff1eb9f5dd68c4",
-                "reference": "8e9b436d25b9473e9dc163c83cff1eb9f5dd68c4",
+                "url": "https://api.github.com/repos/twigphp/string-extra/zipball/8aaf91255d3c524dc09d3e474e3172626ac05c2b",
+                "reference": "8aaf91255d3c524dc09d3e474e3172626ac05c2b",
                 "shasum": ""
             },
             "require": {
@@ -12139,13 +12093,16 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.12-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Twig\\Extra\\String\\": "src/"
-                }
+                    "Twig\\Extra\\String\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -12168,7 +12125,7 @@
                 "unicode"
             ],
             "support": {
-                "source": "https://github.com/twigphp/string-extra/tree/v3.0.5"
+                "source": "https://github.com/twigphp/string-extra/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -12180,20 +12137,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-21T09:54:27+00:00"
+            "time": "2021-01-01T14:58:18+00:00"
         },
         {
             "name": "twig/twig",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "b02fa41f3783a2616eccef7b92fbc2343ffed737"
+                "reference": "f795ca686d38530045859b0350b5352f7d63447d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b02fa41f3783a2616eccef7b92fbc2343ffed737",
-                "reference": "b02fa41f3783a2616eccef7b92fbc2343ffed737",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/f795ca686d38530045859b0350b5352f7d63447d",
+                "reference": "f795ca686d38530045859b0350b5352f7d63447d",
                 "shasum": ""
             },
             "require": {
@@ -12208,7 +12165,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -12244,7 +12201,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.1.1"
+                "source": "https://github.com/twigphp/Twig/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -12256,7 +12213,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-27T19:28:23+00:00"
+            "time": "2021-01-05T15:40:36+00:00"
         },
         {
             "name": "vakata/jstree",
@@ -12501,12 +12458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/AdminModule.git",
-                "reference": "8893a202d4b73400e28b6e28931010e02f26da0b"
+                "reference": "64b7ae47a70758ef0c1f53258fa3a6c7916252e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/8893a202d4b73400e28b6e28931010e02f26da0b",
-                "reference": "8893a202d4b73400e28b6e28931010e02f26da0b",
+                "url": "https://api.github.com/repos/zikula/AdminModule/zipball/64b7ae47a70758ef0c1f53258fa3a6c7916252e7",
+                "reference": "64b7ae47a70758ef0c1f53258fa3a6c7916252e7",
                 "shasum": ""
             },
             "require": {
@@ -12571,7 +12528,7 @@
             "support": {
                 "source": "https://github.com/zikula/AdminModule/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/atom-theme",
@@ -12643,12 +12600,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/BlocksModule.git",
-                "reference": "28f1ba98941210749fd8fe59c87aea31b603711f"
+                "reference": "5c72dbf37d5183e2a3b967bdbcc0e5f5cf6c7583"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/28f1ba98941210749fd8fe59c87aea31b603711f",
-                "reference": "28f1ba98941210749fd8fe59c87aea31b603711f",
+                "url": "https://api.github.com/repos/zikula/BlocksModule/zipball/5c72dbf37d5183e2a3b967bdbcc0e5f5cf6c7583",
+                "reference": "5c72dbf37d5183e2a3b967bdbcc0e5f5cf6c7583",
                 "shasum": ""
             },
             "require": {
@@ -12721,7 +12678,7 @@
             "support": {
                 "source": "https://github.com/zikula/BlocksModule/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/bootstrap-theme",
@@ -12729,12 +12686,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/BootstrapTheme.git",
-                "reference": "8878ad50fd0f750cbb557eac120bc7d59fac752e"
+                "reference": "5c154a2345dd6fd68ad5fbf5915df17d824b2500"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/BootstrapTheme/zipball/8878ad50fd0f750cbb557eac120bc7d59fac752e",
-                "reference": "8878ad50fd0f750cbb557eac120bc7d59fac752e",
+                "url": "https://api.github.com/repos/zikula/BootstrapTheme/zipball/5c154a2345dd6fd68ad5fbf5915df17d824b2500",
+                "reference": "5c154a2345dd6fd68ad5fbf5915df17d824b2500",
                 "shasum": ""
             },
             "require": {
@@ -12790,7 +12747,7 @@
             "support": {
                 "source": "https://github.com/zikula/BootstrapTheme/tree/master"
             },
-            "time": "2020-12-21T20:46:33+00:00"
+            "time": "2020-12-31T21:32:58+00:00"
         },
         {
             "name": "zikula/categories-module",
@@ -12798,12 +12755,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CategoriesModule.git",
-                "reference": "fa20c41555a6e5fb4fa9d9bbaf49d4a26f53dd45"
+                "reference": "e0f6964d006ef547801cab8ea5646f1ae05bd924"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/fa20c41555a6e5fb4fa9d9bbaf49d4a26f53dd45",
-                "reference": "fa20c41555a6e5fb4fa9d9bbaf49d4a26f53dd45",
+                "url": "https://api.github.com/repos/zikula/CategoriesModule/zipball/e0f6964d006ef547801cab8ea5646f1ae05bd924",
+                "reference": "e0f6964d006ef547801cab8ea5646f1ae05bd924",
                 "shasum": ""
             },
             "require": {
@@ -12868,7 +12825,7 @@
             "support": {
                 "source": "https://github.com/zikula/CategoriesModule/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/core-bundle",
@@ -12876,12 +12833,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreBundle.git",
-                "reference": "aa82e5bae124c72bffc5ed1c7ec2b1da0777ed75"
+                "reference": "e9fed0f6ce5b41d7a21e6b59f78857450e6f1ba4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/aa82e5bae124c72bffc5ed1c7ec2b1da0777ed75",
-                "reference": "aa82e5bae124c72bffc5ed1c7ec2b1da0777ed75",
+                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/e9fed0f6ce5b41d7a21e6b59f78857450e6f1ba4",
+                "reference": "e9fed0f6ce5b41d7a21e6b59f78857450e6f1ba4",
                 "shasum": ""
             },
             "require": {
@@ -12902,7 +12859,6 @@
                 "symfony/debug-bundle": "^5.2",
                 "symfony/expression-language": "^5.2",
                 "symfony/framework-bundle": "^5.2",
-                "symfony/ldap": "^5.2",
                 "symfony/maker-bundle": "1.*",
                 "symfony/messenger": "^5.2",
                 "symfony/monolog-bundle": "^3.6",
@@ -12970,7 +12926,7 @@
             "support": {
                 "source": "https://github.com/zikula/CoreBundle/tree/master"
             },
-            "time": "2020-12-21T21:31:54+00:00"
+            "time": "2021-01-09T13:44:21+00:00"
         },
         {
             "name": "zikula/coreinstaller-bundle",
@@ -12978,12 +12934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreInstallerBundle.git",
-                "reference": "8ab64d911afd6101004f25a4c1dce3dbc4880b1e"
+                "reference": "64306f01fc01391676695f96be3eb94e18d0cf7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CoreInstallerBundle/zipball/8ab64d911afd6101004f25a4c1dce3dbc4880b1e",
-                "reference": "8ab64d911afd6101004f25a4c1dce3dbc4880b1e",
+                "url": "https://api.github.com/repos/zikula/CoreInstallerBundle/zipball/64306f01fc01391676695f96be3eb94e18d0cf7d",
+                "reference": "64306f01fc01391676695f96be3eb94e18d0cf7d",
                 "shasum": ""
             },
             "require": {
@@ -13039,7 +12995,7 @@
             "support": {
                 "source": "https://github.com/zikula/CoreInstallerBundle/tree/master"
             },
-            "time": "2020-12-28T17:18:01+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/default-theme",
@@ -13117,12 +13073,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ExtensionsModule.git",
-                "reference": "304f40436a4ff08aaed08a30682df9a9b0808432"
+                "reference": "d7fe593db5c14a29d43fbcf0a9c53d55102132f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/304f40436a4ff08aaed08a30682df9a9b0808432",
-                "reference": "304f40436a4ff08aaed08a30682df9a9b0808432",
+                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/d7fe593db5c14a29d43fbcf0a9c53d55102132f9",
+                "reference": "d7fe593db5c14a29d43fbcf0a9c53d55102132f9",
                 "shasum": ""
             },
             "require": {
@@ -13186,7 +13142,7 @@
             "support": {
                 "source": "https://github.com/zikula/ExtensionsModule/tree/master"
             },
-            "time": "2020-12-28T13:42:43+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/formextension-bundle",
@@ -13194,12 +13150,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/FormExtensionBundle.git",
-                "reference": "cc7fae9d194576c116dd0b697ce7338253f823df"
+                "reference": "1f091745440d448fbcd8e6c8002c3bbe17e03273"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/FormExtensionBundle/zipball/cc7fae9d194576c116dd0b697ce7338253f823df",
-                "reference": "cc7fae9d194576c116dd0b697ce7338253f823df",
+                "url": "https://api.github.com/repos/zikula/FormExtensionBundle/zipball/1f091745440d448fbcd8e6c8002c3bbe17e03273",
+                "reference": "1f091745440d448fbcd8e6c8002c3bbe17e03273",
                 "shasum": ""
             },
             "require": {
@@ -13238,7 +13194,7 @@
             "support": {
                 "source": "https://github.com/zikula/FormExtensionBundle/tree/master"
             },
-            "time": "2020-12-21T21:14:09+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/groups-module",
@@ -13246,12 +13202,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/GroupsModule.git",
-                "reference": "a237b3a03473d7e7d216003804a8a423366b2c0c"
+                "reference": "63a81dcf1aa964905d1ec8d173ad121805c6797e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/GroupsModule/zipball/a237b3a03473d7e7d216003804a8a423366b2c0c",
-                "reference": "a237b3a03473d7e7d216003804a8a423366b2c0c",
+                "url": "https://api.github.com/repos/zikula/GroupsModule/zipball/63a81dcf1aa964905d1ec8d173ad121805c6797e",
+                "reference": "63a81dcf1aa964905d1ec8d173ad121805c6797e",
                 "shasum": ""
             },
             "require": {
@@ -13318,7 +13274,7 @@
             "support": {
                 "source": "https://github.com/zikula/GroupsModule/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/hook-bundle",
@@ -13326,12 +13282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/HookBundle.git",
-                "reference": "eb58af27a49a2fca853faa915301150c96feda69"
+                "reference": "d0273b6c5353efb835ef3e4edc04373e5435ab6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/HookBundle/zipball/eb58af27a49a2fca853faa915301150c96feda69",
-                "reference": "eb58af27a49a2fca853faa915301150c96feda69",
+                "url": "https://api.github.com/repos/zikula/HookBundle/zipball/d0273b6c5353efb835ef3e4edc04373e5435ab6c",
+                "reference": "d0273b6c5353efb835ef3e4edc04373e5435ab6c",
                 "shasum": ""
             },
             "require": {
@@ -13374,7 +13330,7 @@
             "support": {
                 "source": "https://github.com/zikula/HookBundle/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/legal-module",
@@ -13528,12 +13484,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/MenuModule.git",
-                "reference": "18c30b56597df2d12e6fec13cd3c73cee54bf286"
+                "reference": "e60a55997635ff485476f180e558fbe2360df3cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/MenuModule/zipball/18c30b56597df2d12e6fec13cd3c73cee54bf286",
-                "reference": "18c30b56597df2d12e6fec13cd3c73cee54bf286",
+                "url": "https://api.github.com/repos/zikula/MenuModule/zipball/e60a55997635ff485476f180e558fbe2360df3cc",
+                "reference": "e60a55997635ff485476f180e558fbe2360df3cc",
                 "shasum": ""
             },
             "require": {
@@ -13596,7 +13552,7 @@
             "support": {
                 "source": "https://github.com/zikula/MenuModule/tree/master"
             },
-            "time": "2020-12-21T20:54:14+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/oauth-module",
@@ -13721,12 +13677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/PermissionsModule.git",
-                "reference": "b744f2a6a473d9b9030b9c74d7f66ec9bfecd23e"
+                "reference": "abcff8ce8a5f580da8cd5baf1f4274f3812d5962"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/PermissionsModule/zipball/b744f2a6a473d9b9030b9c74d7f66ec9bfecd23e",
-                "reference": "b744f2a6a473d9b9030b9c74d7f66ec9bfecd23e",
+                "url": "https://api.github.com/repos/zikula/PermissionsModule/zipball/abcff8ce8a5f580da8cd5baf1f4274f3812d5962",
+                "reference": "abcff8ce8a5f580da8cd5baf1f4274f3812d5962",
                 "shasum": ""
             },
             "require": {
@@ -13787,7 +13743,7 @@
             "support": {
                 "source": "https://github.com/zikula/PermissionsModule/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/printer-theme",
@@ -13929,12 +13885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/RoutesModule.git",
-                "reference": "41f86d6c61aef9ac7d0dc2b5c3a2ed2632da3c73"
+                "reference": "c7bd209f514cd794fcff4f0566bd4df2a1cce97f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/RoutesModule/zipball/41f86d6c61aef9ac7d0dc2b5c3a2ed2632da3c73",
-                "reference": "41f86d6c61aef9ac7d0dc2b5c3a2ed2632da3c73",
+                "url": "https://api.github.com/repos/zikula/RoutesModule/zipball/c7bd209f514cd794fcff4f0566bd4df2a1cce97f",
+                "reference": "c7bd209f514cd794fcff4f0566bd4df2a1cce97f",
                 "shasum": ""
             },
             "require": {
@@ -14014,7 +13970,7 @@
             "support": {
                 "source": "https://github.com/zikula/RoutesModule/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2020-12-29T14:32:22+00:00"
         },
         {
             "name": "zikula/rss-theme",
@@ -14083,12 +14039,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SearchModule.git",
-                "reference": "5182a8f987501a8849ce65c21efc721547ed8ce4"
+                "reference": "7e47e28614a92523d4db3ad2168fc4ae254345a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SearchModule/zipball/5182a8f987501a8849ce65c21efc721547ed8ce4",
-                "reference": "5182a8f987501a8849ce65c21efc721547ed8ce4",
+                "url": "https://api.github.com/repos/zikula/SearchModule/zipball/7e47e28614a92523d4db3ad2168fc4ae254345a1",
+                "reference": "7e47e28614a92523d4db3ad2168fc4ae254345a1",
                 "shasum": ""
             },
             "require": {
@@ -14151,7 +14107,7 @@
             "support": {
                 "source": "https://github.com/zikula/SearchModule/tree/master"
             },
-            "time": "2020-12-21T20:46:33+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/securitycenter-module",
@@ -14159,12 +14115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SecurityCenterModule.git",
-                "reference": "f7cd9a25f84ee580fc239b318f64188a1f08202b"
+                "reference": "ef300d1c8592a97555589ffcefa98b8b46deb80e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SecurityCenterModule/zipball/f7cd9a25f84ee580fc239b318f64188a1f08202b",
-                "reference": "f7cd9a25f84ee580fc239b318f64188a1f08202b",
+                "url": "https://api.github.com/repos/zikula/SecurityCenterModule/zipball/ef300d1c8592a97555589ffcefa98b8b46deb80e",
+                "reference": "ef300d1c8592a97555589ffcefa98b8b46deb80e",
                 "shasum": ""
             },
             "require": {
@@ -14230,7 +14186,7 @@
             "support": {
                 "source": "https://github.com/zikula/SecurityCenterModule/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/settings-module",
@@ -14238,12 +14194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/SettingsModule.git",
-                "reference": "339ab8a170dbf8a218cf4e0e53d780b559197025"
+                "reference": "a15e0914a1bc5d271571687e8b1a2ffeb70642b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/339ab8a170dbf8a218cf4e0e53d780b559197025",
-                "reference": "339ab8a170dbf8a218cf4e0e53d780b559197025",
+                "url": "https://api.github.com/repos/zikula/SettingsModule/zipball/a15e0914a1bc5d271571687e8b1a2ffeb70642b1",
+                "reference": "a15e0914a1bc5d271571687e8b1a2ffeb70642b1",
                 "shasum": ""
             },
             "require": {
@@ -14314,7 +14270,7 @@
             "support": {
                 "source": "https://github.com/zikula/SettingsModule/tree/master"
             },
-            "time": "2020-12-23T00:50:54+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/sortable-columns",
@@ -14375,12 +14331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ThemeModule.git",
-                "reference": "404a60050bf29ff7d1763dbd7c96c2b8fc6650f7"
+                "reference": "a7159ab4e4fd4bc210ac710e25470424072dab76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/404a60050bf29ff7d1763dbd7c96c2b8fc6650f7",
-                "reference": "404a60050bf29ff7d1763dbd7c96c2b8fc6650f7",
+                "url": "https://api.github.com/repos/zikula/ThemeModule/zipball/a7159ab4e4fd4bc210ac710e25470424072dab76",
+                "reference": "a7159ab4e4fd4bc210ac710e25470424072dab76",
                 "shasum": ""
             },
             "require": {
@@ -14470,7 +14426,7 @@
             "support": {
                 "source": "https://github.com/zikula/ThemeModule/tree/master"
             },
-            "time": "2020-12-28T17:18:01+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/users-module",
@@ -14478,12 +14434,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/UsersModule.git",
-                "reference": "8ca39e74790af5a66e1d9cd67ebee9a0ca6e8202"
+                "reference": "60d6a83c93f4616b1aafd1947ce7e810996185d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/8ca39e74790af5a66e1d9cd67ebee9a0ca6e8202",
-                "reference": "8ca39e74790af5a66e1d9cd67ebee9a0ca6e8202",
+                "url": "https://api.github.com/repos/zikula/UsersModule/zipball/60d6a83c93f4616b1aafd1947ce7e810996185d6",
+                "reference": "60d6a83c93f4616b1aafd1947ce7e810996185d6",
                 "shasum": ""
             },
             "require": {
@@ -14565,7 +14521,7 @@
             "support": {
                 "source": "https://github.com/zikula/UsersModule/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         },
         {
             "name": "zikula/wizard",
@@ -14628,12 +14584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/WorkflowBundle.git",
-                "reference": "2382b1c0ffc91ca464fc6baaf1051c37bffc09b8"
+                "reference": "19ac3447e7760e5ccf6d4c425c413a93feb64cd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/WorkflowBundle/zipball/2382b1c0ffc91ca464fc6baaf1051c37bffc09b8",
-                "reference": "2382b1c0ffc91ca464fc6baaf1051c37bffc09b8",
+                "url": "https://api.github.com/repos/zikula/WorkflowBundle/zipball/19ac3447e7760e5ccf6d4c425c413a93feb64cd6",
+                "reference": "19ac3447e7760e5ccf6d4c425c413a93feb64cd6",
                 "shasum": ""
             },
             "require": {
@@ -14674,7 +14630,7 @@
             "support": {
                 "source": "https://github.com/zikula/WorkflowBundle/tree/master"
             },
-            "time": "2020-12-21T21:14:09+00:00"
+            "time": "2021-01-01T14:03:07+00:00"
         },
         {
             "name": "zikula/zauth-module",
@@ -14682,12 +14638,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ZAuthModule.git",
-                "reference": "fc54125681f945dd71983ac34c3ccf250a46e025"
+                "reference": "d81c6cf3e6731c3e7aff594b0c5330dc019290e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/fc54125681f945dd71983ac34c3ccf250a46e025",
-                "reference": "fc54125681f945dd71983ac34c3ccf250a46e025",
+                "url": "https://api.github.com/repos/zikula/ZAuthModule/zipball/d81c6cf3e6731c3e7aff594b0c5330dc019290e9",
+                "reference": "d81c6cf3e6731c3e7aff594b0c5330dc019290e9",
                 "shasum": ""
             },
             "require": {
@@ -14755,7 +14711,7 @@
             "support": {
                 "source": "https://github.com/zikula/ZAuthModule/tree/master"
             },
-            "time": "2020-12-22T00:07:53+00:00"
+            "time": "2021-01-08T18:12:17+00:00"
         }
     ],
     "packages-dev": [],
