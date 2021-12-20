@@ -4,7 +4,7 @@
     "type": "project",
     "homepage": "https://ziku.la/",
     "license": "LGPL-3.0-or-later",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "authors": [
         {
@@ -26,7 +26,7 @@
         "components/font-awesome": "5.*",
         "components/jquery": "3.*",
         "components/jqueryui": "1.*",
-        "zikula/core-bundle": "^3.1",
+        "zikula/core-bundle": "3.1.0",
         "zikula/legal-module": "3.*",
         "zikula/oauth-module": "1.*",
         "zikula/pagelock-module": "1.*",
