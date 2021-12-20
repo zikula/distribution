@@ -21,12 +21,16 @@
         "ext-mbstring": "*",
         "ext-json": "*",
         "ext-pdo": "*",
+        "components/bootstrap": "4.*",
+        "components/font-awesome": "5.*",
+        "components/jquery": "3.*",
+        "components/jqueryui": "1.*",
         "zikula/core-bundle": "3.*",
-
         "zikula/legal-module": "3.*",
         "zikula/oauth-module": "1.*",
         "zikula/pagelock-module": "1.*",
-        "zikula/profile-module": "3.*"
+        "zikula/profile-module": "3.*",
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "repositories": [
         {
