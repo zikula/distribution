@@ -3499,53 +3499,6 @@
             "time": "2021-10-24T07:53:34+00:00"
         },
         {
-            "name": "kriswallsmith/assetic",
-            "version": "v1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "8ab3638325af9cd144242765494a9dc9b53ab430"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/8ab3638325af9cd144242765494a9dc9b53ab430",
-                "reference": "8ab3638325af9cd144242765494a9dc9b53ab430",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Assetic": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kris Wallsmith",
-                    "email": "kris.wallsmith@gmail.com",
-                    "homepage": "http://kriswallsmith.net/"
-                }
-            ],
-            "description": "Asset Management for PHP",
-            "homepage": "https://github.com/kriswallsmith/assetic",
-            "keywords": [
-                "assets",
-                "compression",
-                "minification"
-            ],
-            "support": {
-                "issues": "https://github.com/kriswallsmith/assetic/issues",
-                "source": "https://github.com/kriswallsmith/assetic/tree/1.0.x"
-            },
-            "time": "2014-12-12T05:07:58+00:00"
-        },
-        {
             "name": "league/commonmark",
             "version": "1.6.6",
             "source": {
@@ -5466,55 +5419,6 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
-        },
-        {
-            "name": "robloach/component-installer",
-            "version": "0.0.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/RobLoach/component-installer.git",
-                "reference": "1864f25db21fc173e02a359f646acd596c1b0460"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/1864f25db21fc173e02a359f646acd596c1b0460",
-                "reference": "1864f25db21fc173e02a359f646acd596c1b0460",
-                "shasum": ""
-            },
-            "require": {
-                "kriswallsmith/assetic": "1.*",
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "composer/composer": "1.*"
-            },
-            "type": "composer-installer",
-            "extra": {
-                "class": "ComponentInstaller\\Installer"
-            },
-            "autoload": {
-                "psr-0": {
-                    "ComponentInstaller": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rob Loach",
-                    "email": "robloach@gmail.com",
-                    "homepage": "http://robloach.net"
-                }
-            ],
-            "description": "Allows installation of Components via Composer.",
-            "support": {
-                "issues": "https://github.com/RobLoach/component-installer/issues",
-                "source": "https://github.com/RobLoach/component-installer/tree/master"
-            },
-            "abandoned": "oomphinc/composer-installers-extender",
-            "time": "2013-08-31T23:46:48+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -8466,12 +8370,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreBundle.git",
-                "reference": "fc7b5d6faae8e83b7ec09ea1ded94d7704e111d3"
+                "reference": "e519a141992e9981edb0e3cebbcb98d7adcc94b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/fc7b5d6faae8e83b7ec09ea1ded94d7704e111d3",
-                "reference": "fc7b5d6faae8e83b7ec09ea1ded94d7704e111d3",
+                "url": "https://api.github.com/repos/zikula/CoreBundle/zipball/e519a141992e9981edb0e3cebbcb98d7adcc94b9",
+                "reference": "e519a141992e9981edb0e3cebbcb98d7adcc94b9",
                 "shasum": ""
             },
             "require": {
@@ -8483,8 +8387,8 @@
                 "gedmo/doctrine-extensions": "2.*",
                 "liip/imagine-bundle": "2.*",
                 "nikic/php-parser": "4.*",
+                "oomphinc/composer-installers-extender": "2.*",
                 "php": ">=7.2.5",
-                "robloach/component-installer": "*",
                 "sensio/framework-extra-bundle": "5.*",
                 "sensiolabs/security-checker": "6.*",
                 "symfony/framework-bundle": "v5.1.9",
@@ -8537,7 +8441,7 @@
             "support": {
                 "source": "https://github.com/zikula/CoreBundle/tree/3.0.4"
             },
-            "time": "2021-12-20T13:21:26+00:00"
+            "time": "2021-12-20T14:01:10+00:00"
         },
         {
             "name": "zikula/coreinstaller-bundle",
