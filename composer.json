@@ -38,29 +38,21 @@
         "zikula-scripts": [
             "composer dump-autoload",
             "bin/console cache:clear --env prod",
-            "bin/console cache:clear",
             "bin/console assets:install --relative public",
-            "Zikula\\ExtensionsModule\\Composer\\ManuallyInstallAssets::install",
-            "Zikula\\ExtensionsModule\\Composer\\RequireJsConfigGenerator::regenerateRequireJs"
-        ],
-        "post-install-cmd": [
-            "@zikula-scripts"
-        ],
-        "post-update-cmd": [
-            "@zikula-scripts"
+            "Zikula\\ExtensionsModule\\Composer\\ManuallyInstallAssets::install"
         ]
     },
     "config": {
         "platform": {
             "php": "7.2.5"
         },
-        "bin-dir": "bin",
-        "sort-packages": true,
-        "component-dir": "public"
+        "bin-dir": "bin"
     },
     "extra": {
         "symfony-assets-install": "relative",
+        "installer-types": ["component"],
         "installer-paths": {
+            "public/{$name}/": ["type:component"],
             "src/extensions/{$vendor}/{$name}": ["type:zikula-module", "type:zikula-theme"]
         }
     }

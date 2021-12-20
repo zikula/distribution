@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b8232946bf10ce98bae34bcef0e4db5",
+    "content-hash": "9ae02b1ef7814e1eea1980faea39198f",
     "packages": [
         {
             "name": "antishov/doctrine-extensions-bundle",
@@ -8451,12 +8451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/CoreInstallerBundle.git",
-                "reference": "2e33a4087f582474d5596de20af7adf15c38a33a"
+                "reference": "6c0a2f105335cb9925f63d7a01581b9cf22dd312"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/CoreInstallerBundle/zipball/2e33a4087f582474d5596de20af7adf15c38a33a",
-                "reference": "2e33a4087f582474d5596de20af7adf15c38a33a",
+                "url": "https://api.github.com/repos/zikula/CoreInstallerBundle/zipball/6c0a2f105335cb9925f63d7a01581b9cf22dd312",
+                "reference": "6c0a2f105335cb9925f63d7a01581b9cf22dd312",
                 "shasum": ""
             },
             "require": {
@@ -8466,7 +8466,7 @@
                 "symfony/framework-bundle": "5.*",
                 "symfony/requirements-checker": "1.*",
                 "zikula/core-bundle": "3.*",
-                "zikula/wizard": "dev-master"
+                "zikula/wizard": "dev-main"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -8492,7 +8492,7 @@
             "support": {
                 "source": "https://github.com/zikula/CoreInstallerBundle/tree/3.0.4"
             },
-            "time": "2021-01-23T15:38:09+00:00"
+            "time": "2021-12-20T12:18:05+00:00"
         },
         {
             "name": "zikula/extensions-module",
@@ -8500,12 +8500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/ExtensionsModule.git",
-                "reference": "9dcca7994cfc14416866c07103894a1cdeb0b09e"
+                "reference": "8ee4516d4f7347dc5e007429a6ff0f767cf2350d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/9dcca7994cfc14416866c07103894a1cdeb0b09e",
-                "reference": "9dcca7994cfc14416866c07103894a1cdeb0b09e",
+                "url": "https://api.github.com/repos/zikula/ExtensionsModule/zipball/8ee4516d4f7347dc5e007429a6ff0f767cf2350d",
+                "reference": "8ee4516d4f7347dc5e007429a6ff0f767cf2350d",
                 "shasum": ""
             },
             "require": {
@@ -8552,7 +8552,7 @@
             "support": {
                 "source": "https://github.com/zikula/ExtensionsModule/tree/3.0.4"
             },
-            "time": "2021-12-20T10:25:48+00:00"
+            "time": "2021-12-20T12:59:02+00:00"
         },
         {
             "name": "zikula/formextension-bundle",
@@ -9701,7 +9701,7 @@
         },
         {
             "name": "zikula/wizard",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zikula/Wizard.git",
@@ -9722,6 +9722,7 @@
                 "symfony/http-foundation": "4.*|5.*",
                 "symfony/yaml": "4.*|5.*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
