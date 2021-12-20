@@ -41,6 +41,14 @@
         {
             "type": "git",
             "url": "https://github.com/FrDH/mmenu-js"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/AdrenalineHunter/JMSI18nRoutingBundle"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/Guite/symfony-bundle/"
         }
     ],
     "scripts": {
