@@ -21,40 +21,18 @@
         "ext-mbstring": "*",
         "ext-pdo": "*",
         "ext-xml": "*",
-        "symfony/flex": "^1.11",
-
+        "symfony/flex": "^1",
+        "components/bootstrap": "4.*",
+        "components/font-awesome": "5.*",
+        "components/jquery": "3.*",
+        "components/jqueryui": "1.*",
         "zikula/core-bundle": "^3.1",
-        "zikula/coreinstaller-bundle": "^3.1",
-        "zikula/formextension-bundle": "^3.1",
-        "zikula/hook-bundle": "^3.1",
-        "zikula/workflow-bundle": "^3.1",
-
-        "zikula/admin-module": "^3.1",
-        "zikula/atom-theme": "^3.1",
-        "zikula/blocks-module": "^3.1",
-        "zikula/bootstrap-theme": "^3.1",
-        "zikula/categories-module": "^3.1",
-        "zikula/default-theme": "^3.1",
-        "zikula/extensions-module": "^3.1",
-        "zikula/groups-module": "^3.1",
-        "zikula/mailer-module": "^3.1",
-        "zikula/menu-module": "^3.1",
-        "zikula/permissions-module": "^3.1",
-        "zikula/printer-theme": "^3.1",
-        "zikula/routes-module": "^3.1",
-        "zikula/rss-theme": "^3.1",
-        "zikula/search-module": "^3.1",
-        "zikula/securitycenter-module": "^3.1",
-        "zikula/settings-module": "^3.1",
-        "zikula/theme-module": "^3.1",
-        "zikula/users-module": "^3.1",
-        "zikula/zauth-module": "^3.1",
-
         "zikula/legal-module": "3.*",
         "zikula/oauth-module": "1.*",
         "zikula/pagelock-module": "1.*",
         "zikula/profile-module": "3.*",
-        "zikula/staticcontent-module": "1.*"
+        "zikula/staticcontent-module": "1.*",
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "conflict": {
         "symfony/symfony": "*"
@@ -77,7 +55,6 @@
         "auto-scripts": {
             "cache:clear --env prod": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd",
-            "security-checker security:check": "script",
             "requirements-checker": "script"
         },
         "zikula-scripts": [
