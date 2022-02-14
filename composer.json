@@ -17,7 +17,7 @@
         "files": ["src/Kernel.php"]
     },
     "require": {
-        "php": "^7.2.5",
+        "php": "^8.0",
         "ext-json": "*",
         "ext-mbstring": "*",
         "ext-pdo": "*",
@@ -74,10 +74,6 @@
         ]
     },
     "config": {
-        "platform": {
-            "php": "7.2.5"
-        },
-        "bin-dir": "bin",
         "allow-plugins": {
             "composer/installers": true,
             "symfony/runtime": true,
