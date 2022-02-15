@@ -22,20 +22,20 @@
         "ext-mbstring": "*",
         "ext-pdo": "*",
         "ext-xml": "*",
-        "symfony/flex": "^1",
-        "components/bootstrap": "4.*",
-        "components/font-awesome": "6.*",
-        "components/jquery": "3.*",
-        "components/jqueryui": "1.*",
+        "symfony/flex": "^2",
+        "components/bootstrap": "^4",
+        "components/font-awesome": "^6",
+        "components/jquery": "^3",
+        "components/jqueryui": "^1",
         "zikula/core-bundle": "3.1.0",
-        "zikula/sortable-columns": "1.*",
+        "zikula/sortable-columns": "dev-main",
 
-        "zikula/legal-module": "3.*",
-        "zikula/oauth-module": "1.*",
-        "zikula/pagelock-module": "1.*",
-        "zikula/profile-module": "3.*",
-        "zikula/staticcontent-module": "1.*",
-        "oomphinc/composer-installers-extender": "^2.0"
+        "zikula/legal-module": "^3",
+        "zikula/oauth-module": "^1",
+        "zikula/pagelock-module": "^1",
+        "zikula/profile-module": "^3",
+        "zikula/staticcontent-module": "^1",
+        "oomphinc/composer-installers-extender": "^2"
     },
     "conflict": {
         "symfony/symfony": "*"
@@ -44,14 +44,6 @@
         {
             "type": "git",
             "url": "https://github.com/FrDH/mmenu-js"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/AdrenalineHunter/JMSI18nRoutingBundle"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/Guite/symfony-bundle/"
         }
     ],
     "scripts": {
